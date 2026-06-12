@@ -42,7 +42,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             net worth: Forbes Real-Time Billionaires · not affiliated with Forbes.
           </p>
           <p className="mt-1">
-            Every number is cited. Corrections and new-founder data welcome by pull request.
+            Every number is cited. Corrections and new-founder data welcome by pull request:{" "}
+            <a href="https://github.com/Sakshyam-Patro/anti-forbes-list" className="underline">
+              github.com/Sakshyam-Patro/anti-forbes-list
+            </a>
           </p>
         </footer>
       </body>
