@@ -9,7 +9,7 @@ export default async function Home() {
   const updated = new Date(r.asOf);
 
   return (
-    <main>
+    <main id="main">
       <header className="mt-10 mb-8 text-center">
         <p className="font-data text-[0.7rem] uppercase tracking-[0.22em] text-ink-soft">
           “Somebody needs to make a list where they rank people by how much wealth

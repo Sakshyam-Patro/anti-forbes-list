@@ -5,7 +5,9 @@ import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 
-const ROOT = process.cwd();
+// On Vercel/CI process.cwd() is the project root; AFL_ROOT overrides for
+// launchers that start the server from elsewhere.
+const ROOT = process.env.AFL_ROOT ?? process.cwd();
 
 export interface Citation { url: string; note?: string; accessed?: string }
 export interface OwnershipPoint { as_of: string; pct_outstanding: number; source: Citation }
