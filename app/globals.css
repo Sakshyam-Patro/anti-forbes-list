@@ -30,7 +30,13 @@ body {
   background-size: 3px 3px;
 }
 
-.font-display { font-family: var(--font-display); }
+.font-display {
+  font-family: var(--font-display);
+  /* straight cuts and lining figures: keep the broadsheet voice, drop the wobble */
+  font-variation-settings: "SOFT" 0, "WONK" 0;
+  font-feature-settings: "lnum" 1;
+  font-variant-numeric: lining-nums;
+}
 .font-data {
   font-family: var(--font-data);
   font-variant-numeric: tabular-nums;
