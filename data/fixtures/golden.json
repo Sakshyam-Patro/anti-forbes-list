@@ -1,0 +1,102 @@
+{
+  "methodology_version": "1.0.0",
+  "baseline": "2025-12-31",
+  "baseline_source": "WCandRets.100years.xlsx (ASU, Mar 2026)",
+  "networth_source": "Forbes RTB via komed3/rtb-api archive, https://raw.githubusercontent.com/komed3/rtb-api/main/api/profile/{slug}/history",
+  "companies": {
+    "AMZN": {
+      "name": "AMAZON COM INC",
+      "cwc_usd": 2268815665800.0
+    },
+    "TSLA": {
+      "name": "TESLA INC",
+      "cwc_usd": 1297362192600.0
+    },
+    "NVDA": {
+      "name": "NVIDIA CORP",
+      "cwc_usd": 4575344917000.0
+    },
+    "MSFT": {
+      "name": "MICROSOFT CORP",
+      "cwc_usd": 4027066355700.0
+    },
+    "GOOGL": {
+      "name": "ALPHABET INC",
+      "cwc_usd": 3571402221100.0
+    },
+    "META": {
+      "name": "META PLATFORMS INC",
+      "cwc_usd": 1390924106400.0
+    },
+    "BRK": {
+      "name": "BERKSHIRE HATHAWAY INC DEL",
+      "cwc_usd": 1125721258900.0
+    }
+  },
+  "founders": {
+    "jeff-bezos": {
+      "name": "Jeff Bezos",
+      "weights": {
+        "AMZN": 1.0
+      },
+      "kept_usd": 242473677000.0,
+      "wcfo_usd": 2026341988800.0
+    },
+    "elon-musk": {
+      "name": "Elon Musk",
+      "weights": {
+        "TSLA": 1.0
+      },
+      "kept_usd": 726376264000.0,
+      "wcfo_usd": 570985928600.0
+    },
+    "jensen-huang": {
+      "name": "Jensen Huang",
+      "weights": {
+        "NVDA": 1.0
+      },
+      "kept_usd": 161942602000.0,
+      "wcfo_usd": 4413402315000.0
+    },
+    "bill-gates": {
+      "name": "Bill Gates",
+      "weights": {
+        "MSFT": 1.0
+      },
+      "kept_usd": 103464557000.0,
+      "wcfo_usd": 3923601798700.0
+    },
+    "larry-page": {
+      "name": "Larry Page",
+      "weights": {
+        "GOOGL": 0.5
+      },
+      "kept_usd": 256963619000.0,
+      "wcfo_usd": 1528737491550.0
+    },
+    "sergey-brin": {
+      "name": "Sergey Brin",
+      "weights": {
+        "GOOGL": 0.5
+      },
+      "kept_usd": 237117220000.0,
+      "wcfo_usd": 1548583890550.0
+    },
+    "mark-zuckerberg": {
+      "name": "Mark Zuckerberg",
+      "weights": {
+        "META": 1.0
+      },
+      "kept_usd": 226339286000.0,
+      "wcfo_usd": 1164584820400.0
+    },
+    "warren-buffett": {
+      "name": "Warren Buffett",
+      "weights": {
+        "BRK": 1.0
+      },
+      "kept_usd": 148925145000.0,
+      "wcfo_usd": 976796113900.0
+    }
+  }
+}

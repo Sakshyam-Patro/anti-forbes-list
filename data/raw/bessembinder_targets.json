@@ -1,0 +1,188 @@
+{
+  "2024": {
+    "AMZN": [
+      {
+        "name": "AMAZON COM INC",
+        "wc_usd_millions": 2154391.6312093628,
+        "first": "1997-06-30",
+        "last": "2024-12-31"
+      }
+    ],
+    "TSLA": [
+      {
+        "name": "TESLA INC",
+        "wc_usd_millions": 1154503.4880561258,
+        "first": "2010-07-30",
+        "last": "2024-12-31"
+      }
+    ],
+    "NVDA": [
+      {
+        "name": "NVIDIA CORP",
+        "wc_usd_millions": 3300779.205284114,
+        "first": "1999-02-26",
+        "last": "2024-12-31"
+      }
+    ],
+    "MSFT": [
+      {
+        "name": "MICROSOFT CORP",
+        "wc_usd_millions": 3523456.200074022,
+        "first": "1986-04-30",
+        "last": "2024-12-31"
+      }
+    ],
+    "GOOGL": [
+      {
+        "name": "ALPHABET INC",
+        "wc_usd_millions": 2190462.9140811996,
+        "first": "2004-09-30",
+        "last": "2024-12-31"
+      }
+    ],
+    "META": [
+      {
+        "name": "META PLATFORMS INC",
+        "wc_usd_millions": 1233544.6146579725,
+        "first": "2012-06-29",
+        "last": "2024-12-31"
+      }
+    ],
+    "BRK": [
+      {
+        "name": "BERKSHIRE HATHAWAY INC DEL",
+        "wc_usd_millions": 1017837.0060834573,
+        "first": "1976-11-30",
+        "last": "2024-12-31"
+      },
+      {
+        "name": "BERKSHIRE HILLS BANCORP INC",
+        "wc_usd_millions": 294.66429712844325,
+        "first": "2000-07-31",
+        "last": "2024-12-31"
+      },
+      {
+        "name": "BERKSHIRE ENERGY RESOURCES",
+        "wc_usd_millions": 140.1520605962499,
+        "first": "1973-01-31",
+        "last": "2000-09-29"
+      },
+      {
+        "name": "BERKSHIRE APPAREL CORP",
+        "wc_usd_millions": 57.511130332178446,
+        "first": "1962-08-31",
+        "last": "1967-11-30"
+      },
+      {
+        "name": "BERKSHIRE BANCORP INC DEL",
+        "wc_usd_millions": -296.1268954298775,
+        "first": "1985-07-31",
+        "last": "2013-11-29"
+      },
+      {
+        "name": "BERKSHIRE GREY INC",
+        "wc_usd_millions": -2126.4764566420445,
+        "first": "2021-03-31",
+        "last": "2023-07-31"
+      }
+    ],
+    "WMT": [
+      {
+        "name": "WALMART INC",
+        "wc_usd_millions": 1015183.3054457635,
+        "first": "1972-12-29",
+        "last": "2024-12-31"
+      }
+    ]
+  },
+  "2025": {
+    "AMZN": [
+      {
+        "name": "AMAZON COM INC",
+        "wc_usd_millions": 2268815.6658,
+        "first": "1997-05-30",
+        "last": "2025-12-31"
+      }
+    ],
+    "TSLA": [
+      {
+        "name": "TESLA INC",
+        "wc_usd_millions": 1297362.1926,
+        "first": "2010-06-30",
+        "last": "2025-12-31"
+      }
+    ],
+    "NVDA": [
+      {
+        "name": "NVIDIA CORP",
+        "wc_usd_millions": 4575344.917,
+        "first": "1999-01-29",
+        "last": "2025-12-31"
+      }
+    ],
+    "MSFT": [
+      {
+        "name": "MICROSOFT CORP",
+        "wc_usd_millions": 4027066.3557,
+        "first": "1986-03-31",
+        "last": "2025-12-31"
+      }
+    ],
+    "GOOGL": [
+      {
+        "name": "ALPHABET INC",
+        "wc_usd_millions": 3571402.2211,
+        "first": "2004-08-31",
+        "last": "2025-12-31"
+      }
+    ],
+    "META": [
+      {
+        "name": "META PLATFORMS INC",
+        "wc_usd_millions": 1390924.1064,
+        "first": "2012-05-31",
+        "last": "2025-12-31"
+      }
+    ],
+    "BRK": [
+      {
+        "name": "BERKSHIRE HATHAWAY INC DEL",
+        "wc_usd_millions": 1125721.2589,
+        "first": "1976-10-29",
+        "last": "2025-12-31"
+      },
+      {
+        "name": "BERKSHIRE ENERGY RESOURCES",
+        "wc_usd_millions": 146.62669042,
+        "first": "1972-12-29",
+        "last": "2000-08-31"
+      },
+      {
+        "name": "BERKSHIRE APPAREL CORP",
+        "wc_usd_millions": 80.549581512,
+        "first": "1962-07-31",
+        "last": "1967-10-31"
+      },
+      {
+        "name": "BERKSHIRE BANCORP INC DEL",
+        "wc_usd_millions": -325.8614167,
+        "first": "1985-06-28",
+        "last": "2013-10-31"
+      },
+      {
+        "name": "BERKSHIRE GREY INC",
+        "wc_usd_millions": -2175.792512,
+        "first": "2021-02-26",
+        "last": "2023-06-30"
+      }
+    ],
+    "WMT": [
+      {
+        "name": "WALMART INC",
+        "wc_usd_millions": 1204016.3875,
+        "first": "1972-11-30",
+        "last": "2025-12-31"
+      }
+    ]
+  }
+}
