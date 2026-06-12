@@ -1,0 +1,23 @@
+schema_version: 1
+slug: reed-hastings
+name: Reed Hastings
+forbes_uri: reed-hastings
+companies:
+- company: netflix
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2025-04-07'
+    pct_outstanding: 0.0099
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1065280/000119312525084425/d867701ddef14a.htm
+      accessed: '2026-06-12'
+special_notes:
+- 4.23M beneficial shares / 425.6M outstanding (proxy marks <1%); incl. 2.07M exercisable
+  options.
+- 'No lifetime total published; documented: $120M HBCUs (2020), $100M Hastings Fund
+  (2016), $200M City Fund (2018).'
+- No published lifetime-giving total; see https://uncf.org/news/patty-quillin-and-reed-hastings-give-120-million-to-support-historically-black-colleges-and-universities

@@ -1,0 +1,29 @@
+schema_version: 1
+slug: larry-page
+name: Larry Page
+forbes_uri: larry-page
+companies:
+- company: alphabet
+  role: cofounder
+  attribution_weight: 0.5
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm
+    note: near-equal founder stakes at 2004 IPO, normalized 0.5/0.5
+  ownership_history:
+  - as_of: '2026-04-06'
+    pct_outstanding: 0.0321
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 1300000000
+  basis: Cumulative Carl Victor Page Memorial Foundation grants through 2023 per 990-PFs;
+    ~99.9% went to donor-advised funds. Stake = 389.1M Class B / 12.116B total A+B+C
+    shares; proxy excludes his non-voting Class C, so economic stake is higher (27.4%
+    of voting power).
+  source:
+    url: https://philanthropynewsdigest.org/news/larry-page-s-6.7-billion-foundation-directs-almost-all-grants-to-dafs
+    accessed: '2026-06-12'
+special_notes:
+- Proxy ownership excludes non-voting Class C holdings; economic stake is higher than
+  shown.

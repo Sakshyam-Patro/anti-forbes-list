@@ -1,0 +1,29 @@
+schema_version: 1
+slug: evan-spiegel
+name: Evan Spiegel
+forbes_uri: evan-spiegel
+companies:
+- company: snap
+  role: cofounder
+  attribution_weight: 0.5
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1564408/000119312517068848/d270216d424b4.htm
+    note: 'Spiegel and Murphy held identical 22.17% pre-offering stakes at the 2017
+      IPO: exactly 0.5/0.5'
+  ownership_history:
+  - as_of: '2026-02-05'
+    pct_outstanding: 0.0933
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1564408/000156440826000013/snap-20251231.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 99800000
+  basis: Press analysis of 2021 Form 4 share gifts (~$99.8M, recipient undisclosed);
+    understates lifetime (excludes Otis College gift, 2025 wildfire relief).
+  source:
+    url: https://www.wealthx.com/intelligence-centre/daily-news/2021/evan-spiegel-donated-over-100-billion-in-snap-stock-in-2021/
+    accessed: '2026-06-12'
+special_notes:
+- Snap has NEVER filed a DEF 14A (public Class A is non-voting, no annual meetings);
+  ownership from FY2025 10-K Part III Item 12.
+- 'Triple-class: 53.1% voting power vs 9.33% economic.'

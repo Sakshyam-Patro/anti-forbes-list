@@ -1,0 +1,29 @@
+schema_version: 1
+slug: sergey-brin
+name: Sergey Brin
+forbes_uri: sergey-brin
+companies:
+- company: alphabet
+  role: cofounder
+  attribution_weight: 0.5
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1288776/000119312504143377/d424b4.htm
+    note: near-equal founder stakes at 2004 IPO, normalized 0.5/0.5
+  ownership_history:
+  - as_of: '2026-04-06'
+    pct_outstanding: 0.0296
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1652044/000130817926000342/goog-20260424.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 5000000000
+  basis: 'Forbes Top Givers (Feb 2026) lifetime out-the-door estimate through end-2025
+    (rank #9), incl. ~$2.2B Parkinson''s research. Stake = 358.9M Class B + 37k Class
+    A / 12.116B total; Class C undisclosed so economic stake is higher (25.3% voting
+    power).'
+  source:
+    url: https://www.forbes.com/lists/top-givers/
+    accessed: '2026-06-12'
+special_notes:
+- Proxy ownership excludes non-voting Class C holdings; economic stake is higher than
+  shown.

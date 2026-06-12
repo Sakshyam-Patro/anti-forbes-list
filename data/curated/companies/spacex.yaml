@@ -7,11 +7,19 @@ bessembinder_names: []
 baseline_close:
   value: 135.0
   source:
-    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001181412&type=424B&dateb=&owner=include&count=10
-    note: IPO offering price per 424B prospectus; listed Nasdaq 2026-06-12. Replace
-      with first-day close once available.
+    url: https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm
+    note: IPO offering price per 424B4 (accession 0001628280-26-042639); 555.6M Class A
+      at $135, ~$75B raise, 13,090,853,965 shares post-offering (~$1.77T implied).
+      Listed Nasdaq 2026-06-12. Replace with first-day close once available.
     accessed: '2026-06-12'
 listing_date: '2026-06-12'
+shares_override:
+  value: 13090853965
+  source:
+    url: https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm
+    note: post-offering shares per 424B4 (7,488,063,555 Class A + 5,602,790,410 Class
+      B), no overallotment; no XBRL companyfacts exist yet for this fresh issuer
+    accessed: '2026-06-12'
 founders:
 - elon-musk
 notes:

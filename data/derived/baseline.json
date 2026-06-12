@@ -1,0 +1,399 @@
+{
+  "generated_at": "2026-06-12T13:57:26.402481Z",
+  "methodology_version": "1.1.0",
+  "baseline_date": "2025-12-31",
+  "companies": {
+    "airbnb": {
+      "name": "Airbnb, Inc.",
+      "ticker": "ABNB",
+      "bessembinder_wc_usd": -16854717700.000002,
+      "baseline_close_usd": 135.72,
+      "shares_outstanding": 598000000.0,
+      "shares_as_of": "2026-03-31",
+      "shares_source": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
+      "prev_close_usd": 129.24000549316406
+    },
+    "alphabet": {
+      "name": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "bessembinder_wc_usd": 3571402221100.0,
+      "baseline_close_usd": 313.0,
+      "shares_outstanding": 12116000000.0,
+      "shares_as_of": "2026-03-31",
+      "shares_source": "us-gaap:CommonStockSharesOutstanding",
+      "prev_close_usd": 358.52899169921875
+    },
+    "amazon": {
+      "name": "Amazon.com, Inc.",
+      "ticker": "AMZN",
+      "bessembinder_wc_usd": 2268815665800.0,
+      "baseline_close_usd": 230.82,
+      "shares_outstanding": 10757109436.0,
+      "shares_as_of": "2026-04-22",
+      "shares_source": "dei:EntityCommonStockSharesOutstanding",
+      "prev_close_usd": 234.35000610351562
+    },
+    "berkshire": {
+      "name": "Berkshire Hathaway Inc.",
+      "ticker": "BRK",
+      "bessembinder_wc_usd": 1125721258900.0,
+      "baseline_close_usd": 502.65,
+      "shares_outstanding": 2157185889.0,
+      "shares_as_of": "2026-06-12",
+      "shares_source": "override",
+      "prev_close_usd": 485.9800109863281
+    },
+    "blackstone": {
+      "name": "Blackstone Inc.",
+      "ticker": "BX",
+      "bessembinder_wc_usd": 87395734491.0,
+      "baseline_close_usd": 154.14,
+      "shares_outstanding": 742879807.0,
+      "shares_as_of": "2026-05-01",
+      "shares_source": "dei:EntityCommonStockSharesOutstanding",
+      "prev_close_usd": 121.63999938964844
+    },
+    "block": {
+      "name": "Block, Inc.",
+      "ticker": "XYZ",
+      "bessembinder_wc_usd": -6864936291.0,
+      "baseline_close_usd": 65.09,
+      "shares_outstanding": 597586000.0,
+      "shares_as_of": "2026-03-31",
+      "shares_source": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
+      "prev_close_usd": 68.95999908447266
+    },
+    "coinbase": {
+      "name": "Coinbase Global, Inc.",
+      "ticker": "COIN",
+      "bessembinder_wc_usd": -23038358820.0,
+      "baseline_close_usd": 226.14,
+      "shares_outstanding": 263411000.0,
+      "shares_as_of": "2026-03-31",
+      "shares_source": "us-gaap:CommonStockSharesOutstanding",
+      "prev_close_usd": 157.14999389648438
+    },
+    "dell": {
+      "name": "Dell Technologies Inc.",
+      "ticker": "DELL",
+      "bessembinder_wc_usd": 109774508447.0,
+      "baseline_close_usd": 125.88,
+      "shares_outstanding": 649000000.0,
+      "shares_as_of": "2026-05-01",
+      "shares_source": "us-gaap:CommonStockSharesOutstanding",
+      "prev_close_usd": 396.0150146484375
+    },
+    "doordash": {
+      "name": "DoorDash, Inc.",
+      "ticker": "DASH",
+      "bessembinder_wc_usd": 12166635456.0,
+      "baseline_close_usd": 226.48,
+      "shares_outstanding": 435429000.0,
+      "shares_as_of": "2026-03-31",
+      "shares_source": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
+      "prev_close_usd": 147.7899932861328
+    },
+    "dropbox": {
+      "name": "Dropbox, Inc.",
+      "ticker": "DBX",
+      "bessembinder_wc_usd": -711828435.7,
+      "baseline_close_usd": 27.8,
+      "shares_outstanding": 235200000.0,
+      "shares_as_of": "2026-03-31",
+      "shares_source": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
+      "prev_close_usd": 26.655000686645508
+    },
+    "interactive-brokers": {
+      "name": "Interactive Brokers Group, Inc.",
+      "ticker": "IBKR",
+      "bessembinder_wc_usd": 23645638135.0,
+      "baseline_close_usd": 64.31,
+      "shares_outstanding": 445616477.0,
+      "shares_as_of": "2026-06-12",
+      "shares_source": "override",
+      "prev_close_usd": 92.09500122070312
+    },
+    "meta": {
+      "name": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "bessembinder_wc_usd": 1390924106400.0,
+      "baseline_close_usd": 660.09,
+      "shares_outstanding": 2534000000.0,
+      "shares_as_of": "2026-03-31",
+      "shares_source": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
+      "prev_close_usd": 563.9299926757812
+    },
+    "microsoft": {
+      "name": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "bessembinder_wc_usd": 4027066355700.0,
+      "baseline_close_usd": 483.62,
+      "shares_outstanding": 7428434704.0,
+      "shares_as_of": "2026-04-23",
+      "shares_source": "dei:EntityCommonStockSharesOutstanding",
+      "prev_close_usd": 383.6000061035156
+    },
+    "netflix": {
+      "name": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "bessembinder_wc_usd": 401684899450.0,
+      "baseline_close_usd": 93.76,
+      "shares_outstanding": 4212794271.0,
+      "shares_as_of": "2026-03-31",
+      "shares_source": "dei:EntityCommonStockSharesOutstanding",
+      "prev_close_usd": 79.34980010986328
+    },
+    "nike": {
+      "name": "NIKE, Inc.",
+      "ticker": "NKE",
+      "bessembinder_wc_usd": 118119492460.0,
+      "baseline_close_usd": 63.71,
+      "shares_outstanding": 1480887033.0,
+      "shares_as_of": "2026-06-12",
+      "shares_source": "override",
+      "prev_close_usd": 45.16999816894531
+    },
+    "nvidia": {
+      "name": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "bessembinder_wc_usd": 4575344917000.0,
+      "baseline_close_usd": 186.5,
+      "shares_outstanding": 24200000000.0,
+      "shares_as_of": "2026-05-15",
+      "shares_source": "dei:EntityCommonStockSharesOutstanding",
+      "prev_close_usd": 204.4073944091797
+    },
+    "oracle": {
+      "name": "Oracle Corporation",
+      "ticker": "ORCL",
+      "bessembinder_wc_usd": 729611435770.0,
+      "baseline_close_usd": 194.91,
+      "shares_outstanding": 2876046000.0,
+      "shares_as_of": "2026-03-05",
+      "shares_source": "dei:EntityCommonStockSharesOutstanding",
+      "prev_close_usd": 179.8000030517578
+    },
+    "palantir": {
+      "name": "Palantir Technologies Inc.",
+      "ticker": "PLTR",
+      "bessembinder_wc_usd": 353537833890.0,
+      "baseline_close_usd": 177.75,
+      "shares_outstanding": 2397133000.0,
+      "shares_as_of": "2026-03-31",
+      "shares_source": "us-gaap:CommonStockSharesOutstanding",
+      "prev_close_usd": 127.72329711914062
+    },
+    "salesforce": {
+      "name": "Salesforce, Inc.",
+      "ticker": "CRM",
+      "bessembinder_wc_usd": 188567822870.0,
+      "baseline_close_usd": 264.91,
+      "shares_outstanding": 819000000.0,
+      "shares_as_of": "2026-05-21",
+      "shares_source": "dei:EntityCommonStockSharesOutstanding",
+      "prev_close_usd": 163.2100067138672
+    },
+    "snap": {
+      "name": "Snap Inc.",
+      "ticker": "SNAP",
+      "bessembinder_wc_usd": -29682331170.0,
+      "baseline_close_usd": 8.07,
+      "shares_outstanding": 1741534000.0,
+      "shares_as_of": "2026-03-31",
+      "shares_source": "us-gaap:CommonStockSharesOutstanding",
+      "prev_close_usd": 5.190000057220459
+    },
+    "spacex": {
+      "name": "Space Exploration Technologies Corp.",
+      "ticker": "SPCX",
+      "bessembinder_wc_usd": 0.0,
+      "baseline_close_usd": 135.0,
+      "shares_outstanding": 13090853965.0,
+      "shares_as_of": "2026-06-12",
+      "shares_source": "override",
+      "prev_close_usd": 135.0
+    },
+    "tesla": {
+      "name": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "bessembinder_wc_usd": 1297362192600.0,
+      "baseline_close_usd": 449.72,
+      "shares_outstanding": 3755723871.0,
+      "shares_as_of": "2026-04-16",
+      "shares_source": "dei:EntityCommonStockSharesOutstanding",
+      "prev_close_usd": 397.1549987792969
+    },
+    "walmart": {
+      "name": "Walmart Inc.",
+      "ticker": "WMT",
+      "bessembinder_wc_usd": 1204016387500.0,
+      "baseline_close_usd": 111.41,
+      "shares_outstanding": 7958079155.0,
+      "shares_as_of": "2026-05-27",
+      "shares_source": "dei:EntityCommonStockSharesOutstanding",
+      "prev_close_usd": 120.0999984741211
+    },
+    "workday": {
+      "name": "Workday, Inc.",
+      "ticker": "WDAY",
+      "bessembinder_wc_usd": 16665658423.0,
+      "baseline_close_usd": 214.78,
+      "shares_outstanding": 249685551.0,
+      "shares_as_of": "2026-06-12",
+      "shares_source": "override",
+      "prev_close_usd": 126.33999633789062
+    },
+    "zscaler": {
+      "name": "Zscaler, Inc.",
+      "ticker": "ZS",
+      "bessembinder_wc_usd": 23876922541.0,
+      "baseline_close_usd": 224.92,
+      "shares_outstanding": 161709525.0,
+      "shares_as_of": "2026-05-19",
+      "shares_source": "dei:EntityCommonStockSharesOutstanding",
+      "prev_close_usd": 125.16999816894531
+    }
+  },
+  "founders": {
+    "alexander-karp": {
+      "name": "Alex Karp",
+      "forbes_net_worth_usd": 12395632000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "aneel-bhusri": {
+      "name": "Aneel Bhusri",
+      "forbes_net_worth_usd": 2141177000.0000002,
+      "forbes_as_of": "1781272502687"
+    },
+    "bill-gates": {
+      "name": "Bill Gates",
+      "forbes_net_worth_usd": 103722614000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "bobby-murphy": {
+      "name": "Bobby Murphy",
+      "forbes_net_worth_usd": 1620714000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "brian-armstrong": {
+      "name": "Brian Armstrong",
+      "forbes_net_worth_usd": 7668198000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "brian-chesky": {
+      "name": "Brian Chesky",
+      "forbes_net_worth_usd": 9267417000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "david-duffield": {
+      "name": "David Duffield",
+      "forbes_net_worth_usd": 8434580000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "drew-houston": {
+      "name": "Drew Houston",
+      "forbes_net_worth_usd": 2013232000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "elon-musk": {
+      "name": "Elon Musk",
+      "forbes_net_worth_usd": 985509612000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "evan-spiegel": {
+      "name": "Evan Spiegel",
+      "forbes_net_worth_usd": 2222394000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "jack-dorsey": {
+      "name": "Jack Dorsey",
+      "forbes_net_worth_usd": 6187396000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "jay-chaudhry": {
+      "name": "Jay Chaudhry",
+      "forbes_net_worth_usd": 6918081000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "jeff-bezos": {
+      "name": "Jeff Bezos",
+      "forbes_net_worth_usd": 248046685000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "jensen-huang": {
+      "name": "Jensen Huang",
+      "forbes_net_worth_usd": 177983096000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "larry-ellison": {
+      "name": "Larry Ellison",
+      "forbes_net_worth_usd": 228031277000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "larry-page": {
+      "name": "Larry Page",
+      "forbes_net_worth_usd": 293790296000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "marc-benioff": {
+      "name": "Marc Benioff",
+      "forbes_net_worth_usd": 7271844000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "mark-zuckerberg": {
+      "name": "Mark Zuckerberg",
+      "forbes_net_worth_usd": 196189509000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "michael-dell": {
+      "name": "Michael Dell",
+      "forbes_net_worth_usd": 223063005000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "peter-thiel": {
+      "name": "Peter Thiel",
+      "forbes_net_worth_usd": 27548970000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "phil-knight": {
+      "name": "Phil Knight",
+      "forbes_net_worth_usd": 25994640000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "reed-hastings": {
+      "name": "Reed Hastings",
+      "forbes_net_worth_usd": 4644456000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "sergey-brin": {
+      "name": "Sergey Brin",
+      "forbes_net_worth_usd": 270982255000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "stephen-schwarzman": {
+      "name": "Stephen Schwarzman",
+      "forbes_net_worth_usd": 40343210000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "thomas-peterffy": {
+      "name": "Thomas Peterffy",
+      "forbes_net_worth_usd": 106303872000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "tony-xu": {
+      "name": "Tony Xu",
+      "forbes_net_worth_usd": 1487459000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "walton-family": {
+      "name": "Walton family",
+      "forbes_net_worth_usd": 475730678000.0,
+      "forbes_as_of": "1781272502687"
+    },
+    "warren-buffett": {
+      "name": "Warren Buffett",
+      "forbes_net_worth_usd": 144597012000.0,
+      "forbes_as_of": "1781272502687"
+    }
+  }
+}

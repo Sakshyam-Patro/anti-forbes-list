@@ -1,0 +1,28 @@
+schema_version: 1
+slug: david-duffield
+name: David Duffield
+forbes_uri: david-duffield
+companies:
+- company: workday
+  role: cofounder
+  attribution_weight: 0.7315
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1327811/000119312512422505/d385110d424b4.htm
+    note: 'IPO economic stakes 45.03%/16.53% normalized: .4503/(.4503+.1653)'
+  ownership_history:
+  - as_of: '2026-04-17'
+    pct_outstanding: 0.1601
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1327811/000110465926055687/tm261347-2_def14a.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 1200000000
+  basis: Documented lifetime giving; see source.
+  source:
+    url: https://time.com/collection/time100-philanthropy/2026/david-duffield-cheryl-duffield/
+    accessed: '2026-06-12'
+special_notes:
+- Economic stake from proxy footnote 18 (39.98M of 249.7M shares); headline proxy
+  row double-counts Bhusri's B shares via voting agreement.
+- 'Giving per TIME100 Philanthropy 2026: $550M cumulative Cornell, $300M+ Maddie''s
+  Fund.'

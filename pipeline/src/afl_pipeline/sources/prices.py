@@ -27,13 +27,18 @@ def prev_close(symbol: str, client: httpx.Client | None = None) -> tuple[float, 
         resp = c.get(CHART_URL.format(symbol=symbol), headers=UA, timeout=20)
         resp.raise_for_status()
         result = resp.json()["chart"]["result"][0]
-        closes = result["indicators"]["quote"][0]["close"]
-        stamps = result["timestamp"]
+        closes = (result.get("indicators", {}).get("quote") or [{}])[0].get("close") or []
+        stamps = result.get("timestamp") or []
         pairs = [(s, v) for s, v in zip(stamps, closes) if v]
-        if not pairs:
-            raise PriceError(f"no closes for {symbol}")
-        s, v = pairs[-1]
-        return float(v), time.strftime("%Y-%m-%d", time.gmtime(s))
+        if pairs:
+            s, v = pairs[-1]
+            return float(v), time.strftime("%Y-%m-%d", time.gmtime(s))
+        # listing-day tickers have no daily bars yet; fall back to the quote
+        meta = result.get("meta", {})
+        if meta.get("regularMarketPrice"):
+            return float(meta["regularMarketPrice"]), time.strftime(
+                "%Y-%m-%d", time.gmtime(meta.get("regularMarketTime", time.time())))
+        raise PriceError(f"no closes for {symbol}")
     finally:
         if client is None:
             c.close()

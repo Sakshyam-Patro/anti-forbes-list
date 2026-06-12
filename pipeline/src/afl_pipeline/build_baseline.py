@@ -78,8 +78,9 @@ def build(offline: bool, overrides: set[str]) -> Baseline:
         shares = edgar.fetch_all({c.ticker: c.cik for c in companies.values()
                                   if c.shares_override is None})
         closes = prices.fetch_all([c.yahoo_symbol or c.ticker for c in companies.values()])
+        # family-aggregate entries have synthetic uris; fetch their members instead
         net_worths, degraded = forbes.fetch_net_worths_resilient(
-            {f.forbes_uri for f in founders.values()} |
+            {f.forbes_uri for f in founders.values() if f.status != "family-aggregate"} |
             {m for f in founders.values() for m in f.members})
 
     out_companies: dict[str, BaselineCompany] = {}

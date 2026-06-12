@@ -1,0 +1,22 @@
+schema_version: 1
+slug: bobby-murphy
+name: Bobby Murphy
+forbes_uri: bobby-murphy
+companies:
+- company: snap
+  role: cofounder
+  attribution_weight: 0.5
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1564408/000119312517068848/d270216d424b4.htm
+    note: 'Spiegel and Murphy held identical 22.17% pre-offering stakes at the 2017
+      IPO: exactly 0.5/0.5'
+  ownership_history:
+  - as_of: '2026-02-05'
+    pct_outstanding: 0.1027
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1564408/000156440826000013/snap-20251231.htm
+      accessed: '2026-06-12'
+special_notes:
+- Ownership from FY2025 10-K Part III Item 12 (Snap files no proxy).
+- 46.4% voting power vs 10.27% economic; no aggregate giving estimate exists (pledged
+  up to 13M Class A to Snap Foundation over 15-20y).

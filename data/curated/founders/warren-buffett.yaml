@@ -1,0 +1,30 @@
+schema_version: 1
+slug: warren-buffett
+name: Warren Buffett
+forbes_uri: warren-buffett
+companies:
+- company: berkshire
+  role: builder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1067983/000119312526106253/d882687ddef14a.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2026-03-04'
+    pct_outstanding: 0.137
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1067983/000119312526106253/d882687ddef14a.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 68300000000
+  basis: 'Forbes Top Givers (Feb 2026) rank #1: Berkshire stock actually donated since
+    2006 through end-2025, valued at donation date ($47.9B of it to the Gates Foundation).
+    Stake = 196,317 Class A + 1,114 Class B = ~13.7% economic, ~30% voting.'
+  source:
+    url: https://www.forbes.com/lists/top-givers/
+    accessed: '2026-06-12'
+special_notes:
+- Acquired Berkshire 1965, tracked as builder; Bessembinder window 1976- reflects
+  CRSP coverage.
+- Donated shares (>$68B at donation value) sit with others; strict-creation toggle
+  shows the alternative.

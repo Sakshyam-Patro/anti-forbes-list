@@ -1,0 +1,26 @@
+schema_version: 1
+slug: marc-benioff
+name: Marc Benioff
+forbes_uri: marc-benioff
+companies:
+- company: salesforce
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2025-03-31'
+    pct_outstanding: 0.024
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1108524/000110852425000009/crm-20250424.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 1000000000
+  basis: Documented lifetime giving; see source.
+  source:
+    url: https://investor.salesforce.com/news/news-details/2025/Marc-and-Lynne-Benioff-Salesforce-Announce-New-Investments-in-Healthcare-and-Education-Surpassing-1B-in-Lifetime-Contributions-to-the-Bay-Area/default.aspx
+    accessed: '2026-06-12'
+special_notes:
+- Giving is combined Marc & Lynne Benioff, >$1B milestone announced Oct 2025, much
+  to UCSF Benioff Children's Hospitals.

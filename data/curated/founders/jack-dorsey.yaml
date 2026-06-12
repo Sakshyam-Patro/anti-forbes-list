@@ -1,0 +1,29 @@
+schema_version: 1
+slug: jack-dorsey
+name: Jack Dorsey
+forbes_uri: jack-dorsey
+companies:
+- company: block
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1512673/000119312515382249/d937622d424b4.htm
+    note: sole tracked Block founder (Jim McKelvey not yet tracked); 23.4% pre-offering
+      stake at 2015 IPO
+  ownership_history:
+  - as_of: '2026-04-24'
+    pct_outstanding: 0.082
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1512673/000162828026027203/sq-20260423.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 795000000
+  basis: Start Small LLC distributions to date per its public tracker (Inside Philanthropy,
+    Jan 2026) out of his $1B 2020 pledge of Square equity; spans causes beyond Block.
+  source:
+    url: https://www.insidephilanthropy.com/home/whats-up-with-jack-dorseys-philanthropy
+    accessed: '2026-06-12'
+special_notes:
+- 'Dual-class: 42.2% voting power vs 8.2% economic; $2.75/yr compensation, no options
+  or RSUs.'
+- Also co-founded Twitter (2006) - private since 2022, outside the headline universe.

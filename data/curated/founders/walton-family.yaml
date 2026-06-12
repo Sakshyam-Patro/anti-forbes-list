@@ -1,0 +1,38 @@
+schema_version: 1
+slug: walton-family
+name: Walton family
+forbes_uri: walton-family
+status: family-aggregate
+inherited: true
+members:
+- jim-walton
+- rob-walton
+- alice-walton
+- lukas-walton
+- christy-walton
+companies:
+- company: walmart
+  role: founder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm
+    note: Sam Walton founded 1962; heirs tracked as the inherited control case (METHODOLOGY
+      §5)
+  ownership_history:
+  - as_of: '2026-04-10'
+    pct_outstanding: 0.4411
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/104169/000119312526173673/wmt-20260423.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 6200000000
+  basis: Walton Family Foundation grants in its first 30 years (1987-2017); cumulative
+    is materially higher (~$0.55B/yr since).
+  source:
+    url: https://en.wikipedia.org/wiki/Walton_Family_Foundation
+    accessed: '2026-06-12'
+special_notes:
+- 44.11% = 3.516B of 7.971B WMT shares (Walton Enterprises LLC 3.003B + Walton Family
+  Holdings Trust 0.514B; rows overlap - do not sum naively).
+- Giving = foundation's first 30 years (1987-2017); cumulative is materially higher
+  (~$0.55B/yr since).

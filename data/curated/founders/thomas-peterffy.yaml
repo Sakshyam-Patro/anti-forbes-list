@@ -1,0 +1,23 @@
+schema_version: 1
+slug: thomas-peterffy
+name: Thomas Peterffy
+forbes_uri: thomas-peterffy
+companies:
+- company: interactive-brokers
+  role: founder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1381197/000138119726000066/ibkr-20260311.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2026-03-09'
+    pct_outstanding: 0.737
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1381197/000138119726000066/ibkr-20260311.htm
+      accessed: '2026-06-12'
+special_notes:
+- 'Up-C: 73.7% is deemed beneficial ownership via IBG Holdings LLC; aggregates other
+  members'' economic interests - his personal economic % not disclosed. Strict-stake
+  display must flag this.'
+- No published lifetime-giving total; foundation ~$178M endowment.
+- No published lifetime-giving total; see https://www.insidephilanthropy.com/home/will-this-81-year-old-trading-billionaires-fortune-seed-a-new-megafunder

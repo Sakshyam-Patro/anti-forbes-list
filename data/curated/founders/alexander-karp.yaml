@@ -1,0 +1,22 @@
+schema_version: 1
+slug: alexander-karp
+name: Alex Karp
+forbes_uri: alexander-karp
+companies:
+- company: palantir
+  role: cofounder
+  attribution_weight: 0.2412
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1321655/000119312520250103/d904406ds1a.htm
+    note: 'IPO stakes normalized across tracked founders: .064/(.064+.2014); Cohen
+      and Lonsdale not tracked'
+  ownership_history:
+  - as_of: '2026-04-24'
+    pct_outstanding: 0.0385
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1321655/000132165526000019/pltr-20260423.htm
+      accessed: '2026-06-12'
+special_notes:
+- Triple-class incl. founders-only Class F keeping founders at ~50% of votes; 3M Class
+  A pledged for personal debt.
+- No documented lifetime giving total; known gifts small and ad hoc.

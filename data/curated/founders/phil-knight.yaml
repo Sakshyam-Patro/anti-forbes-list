@@ -1,0 +1,30 @@
+schema_version: 1
+slug: phil-knight
+name: Phil Knight
+forbes_uri: phil-knight
+companies:
+- company: nike
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/320187/000032018725000048/nke-20250717.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2025-07-17'
+    pct_outstanding: 0.196
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/320187/000032018725000048/nke-20250717.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 2400000000
+  basis: Documented lifetime giving; see source.
+  source:
+    url: https://inequality.org/article/phil-knight-billion-dollar-philanthropy/
+    accessed: '2026-06-12'
+special_notes:
+- 'DERIVED aggregate: direct 27.5M Class A + 35.8M Class B PLUS 226.75M Class A held
+  via Swoosh LLC (listed as separate owner in proxy; Swoosh figure as of 2024-07-11
+  Form 4).'
+- Family controls ~97% of Class A voting power.
+- Giving ~$2.4B Chronicle direct-to-charity over ~10y; OHSU alone >=2.7B over longer
+  window.

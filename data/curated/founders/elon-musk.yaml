@@ -1,0 +1,43 @@
+schema_version: 1
+slug: elon-musk
+name: Elon Musk
+forbes_uri: elon-musk
+companies:
+- company: tesla
+  role: builder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2025-09-15'
+    pct_outstanding: 0.198
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm
+      accessed: '2026-06-12'
+- company: spacex
+  role: founder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm
+    note: sole tracked founder; 49.03% economic stake at IPO per 424B4
+  ownership_history:
+  - as_of: '2026-06-12'
+    pct_outstanding: 0.4903
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm
+      note: 424B4 post-offering beneficial ownership table
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 1000000000
+  basis: Cumulative Musk Foundation grants actually paid through 2024 per 990-PF filings;
+    excludes ~$7.6B of stock parked in his own foundation. 19.8% includes 304M option
+    shares exercisable within 60 days (~13% excluding).
+  source:
+    url: https://www.insidephilanthropy.com/find-a-grant/grants-m/musk-foundation
+    accessed: '2026-06-12'
+special_notes:
+- 'Tesla: joined at Series A 2004, legally co-founder per 2009 settlement; tracked
+  as builder.'
+- 19.8% Tesla stake includes 304M option shares exercisable within 60 days (~13% excluding).
+- Kept includes still-private xAI; CWC does not (conservative).

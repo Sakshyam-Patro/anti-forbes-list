@@ -1,0 +1,25 @@
+schema_version: 1
+slug: jeff-bezos
+name: Jeff Bezos
+forbes_uri: jeff-bezos
+companies:
+- company: amazon
+  role: founder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2026-02-24'
+    pct_outstanding: 0.088
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1018724/000110465926041026/tm261382-1_def14a.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 4700000000
+  basis: 'Forbes Top Givers (Feb 2026): cash out the door through end-2025, valued
+    at donation; excludes the $10B Earth Fund pledge (~$2.4B disbursed) and Day One
+    Fund pledges (~$850M granted).'
+  source:
+    url: https://www.forbes.com/lists/top-givers/
+    accessed: '2026-06-12'

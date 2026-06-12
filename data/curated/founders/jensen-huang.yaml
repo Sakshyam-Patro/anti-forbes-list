@@ -1,0 +1,24 @@
+schema_version: 1
+slug: jensen-huang
+name: Jensen Huang
+forbes_uri: jensen-huang
+companies:
+- company: nvidia
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2026-03-23'
+    pct_outstanding: 0.0358
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 350000000
+  basis: Cumulative Jen-Hsun & Lori Huang Foundation grants paid 2007-2024 from 990-PF
+    filings, valued at grant date; foundation holds ~$9.2B earmarked but not yet given.
+  source:
+    url: https://www.insidephilanthropy.com/home/nvidia-cofounders-foundation-is-now-bigger-than-macarthur
+    accessed: '2026-06-12'

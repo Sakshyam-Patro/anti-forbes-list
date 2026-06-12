@@ -1,0 +1,28 @@
+schema_version: 1
+slug: brian-armstrong
+name: Brian Armstrong
+forbes_uri: brian-armstrong
+companies:
+- company: coinbase
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1679788/000162828021005373/coinbaseglobalincs-1a2.htm
+    note: sole tracked Coinbase founder (Fred Ehrsam not yet tracked)
+  ownership_history:
+  - as_of: '2026-04-24'
+    pct_outstanding: 0.1245
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1679788/000167978826000045/coin-20260424.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 1000000
+  basis: 'Documented floor only: $1M personal donation to GiveCrypto (wound down 2023);
+    removed from Giving Pledge July 2024; no lifetime total.'
+  source:
+    url: https://cryptoslate.com/coinbase-ceo-brian-armstrong-launches-crypto-charity/
+    accessed: '2026-06-12'
+special_notes:
+- 'Dual-class: 49.6% voting power vs 12.45% economic; Class A position almost entirely
+  60-day options; further 9.87M Class B in independent-trustee trusts excluded from
+  his row.'

@@ -1,0 +1,31 @@
+schema_version: 1
+slug: stephen-schwarzman
+name: Stephen Schwarzman
+forbes_uri: stephen-schwarzman
+companies:
+- company: blackstone
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2026-02-20'
+    pct_outstanding: 0.522
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/d48618d10k.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 1000000000
+  basis: Documented lifetime giving; see source.
+  source:
+    url: https://fortune.com/2026/06/09/stephen-schwarzman-blackstone-billionaire-philanthropy-grandfather-giving-pledge/
+    accessed: '2026-06-12'
+special_notes:
+- Blackstone files NO DEF 14A (founder-controlled, no proxy solicitation) - source
+  is FY2025 10-K Item 12.
+- 0.522 = share of Blackstone Holdings Partnership Units (231.9M, exchangeable 1:1),
+  NOT common stock; economic interest ~19% per Bloomberg - strict-stake display must
+  NOT multiply 0.522 by BX public market cap.
+- 'Documented gifts: MIT $350M, Schwarzman Scholars >$575M, Oxford ~$222M, NYPL $100M,
+  Yale $150M.'

@@ -1,0 +1,28 @@
+schema_version: 1
+slug: michael-dell
+name: Michael Dell
+forbes_uri: michael-dell
+companies:
+- company: dell
+  role: founder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1571996/000119312525121698/d835807ddef14a.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2025-04-30'
+    pct_outstanding: 0.414
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1571996/000119312525121698/d835807ddef14a.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 2800000000
+  basis: Documented lifetime giving; see source.
+  source:
+    url: https://en.wikipedia.org/wiki/Michael_%26_Susan_Dell_Foundation
+    accessed: '2026-06-12'
+special_notes:
+- '41.4% of ALL classes: 246.8M Class A (89.2% of A, super-voting unlisted) + 36.3M
+  Class C (NYSE-listed).'
+- Giving = Michael & Susan Dell Foundation reported; Dec-2025 $6.25B 'Trump Accounts'
+  pledge is future commitment, excluded.

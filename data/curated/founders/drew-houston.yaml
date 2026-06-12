@@ -1,0 +1,22 @@
+schema_version: 1
+slug: drew-houston
+name: Drew Houston
+forbes_uri: drew-houston
+companies:
+- company: dropbox
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1467623/000146762326000020/dbx-20260407.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2026-03-31'
+    pct_outstanding: 0.3522
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1467623/000146762326000020/dbx-20260407.htm
+      accessed: '2026-06-12'
+special_notes:
+- 35.22% economic (84.0M of 238.6M); Class A buybacks have steadily concentrated his
+  share.
+- Giving Pledge 2024; no lifetime total.
+- No published lifetime-giving total; see https://www.givingpledge.org/pledger/drew-and-erin-houston/

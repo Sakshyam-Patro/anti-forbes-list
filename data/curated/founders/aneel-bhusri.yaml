@@ -1,0 +1,22 @@
+schema_version: 1
+slug: aneel-bhusri
+name: Aneel Bhusri
+forbes_uri: aneel-bhusri
+companies:
+- company: workday
+  role: cofounder
+  attribution_weight: 0.2685
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1327811/000119312512422505/d385110d424b4.htm
+    note: 'IPO economic stakes 45.03%/16.53% normalized: .1653/(.4503+.1653)'
+  ownership_history:
+  - as_of: '2026-04-17'
+    pct_outstanding: 0.0344
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1327811/000110465926055687/tm261347-2_def14a.htm
+      accessed: '2026-06-12'
+special_notes:
+- Economic stake from proxy footnote 2 (8.58M of 249.7M); IPO residual includes Greylock
+  fund shares he controlled but did not wholly own.
+- Giving Pledge 2018; no lifetime total published.
+- No published lifetime-giving total; see https://www.givingpledge.org/pledger/aneel-and-allison-bhusri/

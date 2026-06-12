@@ -1,0 +1,22 @@
+schema_version: 1
+slug: larry-ellison
+name: Larry Ellison
+forbes_uri: larry-ellison
+companies:
+- company: oracle
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2025-09-19'
+    pct_outstanding: 0.406
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1341439/000119312525220801/d72066ddef14a.htm
+      accessed: '2026-06-12'
+special_notes:
+- 346M of his 1.158B shares pledged as loan collateral (proxy-disclosed).
+- No published lifetime-giving total; ~$200M USC Ellison Institute, ~$1B Ellison Medical
+  Foundation (closed 2013); Giving Pledge signatory.
+- No published lifetime-giving total; see https://www.givingpledge.org/pledger/larry-ellison/

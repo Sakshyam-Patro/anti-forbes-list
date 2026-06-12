@@ -14,3 +14,10 @@ baseline_close:
 founders:
 - david-duffield
 - aneel-bhusri
+shares_override:
+  value: 249685551
+  source:
+    url: https://www.sec.gov/Archives/edgar/data/1327811/000110465926055687/tm261347-2_def14a.htm
+    note: 203,712,072 Class A + 45,973,479 Class B as of 2026-04-17 per DEF 14A; EDGAR
+      dei tag stale since 2018
+    accessed: '2026-06-12'

@@ -1,0 +1,28 @@
+schema_version: 1
+slug: brian-chesky
+name: Brian Chesky
+forbes_uri: brian-chesky
+companies:
+- company: airbnb
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm
+    note: sole tracked Airbnb founder (Gebbia and Blecharczyk not yet tracked; documented
+      limitation, METHODOLOGY §4)
+  ownership_history:
+  - as_of: '2026-04-24'
+    pct_outstanding: 0.1105
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1559720/000119312526175062/d936646ddef14a.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 100000000
+  basis: Single documented $100M Obama Foundation Voyager Scholarship commitment (2022);
+    Giving Pledge 2016; no audited lifetime total.
+  source:
+    url: https://philanthropynewsdigest.org/news/obama-foundation-brian-chesky-launch-100-million-scholarship-program
+    accessed: '2026-06-12'
+special_notes:
+- 'Dual-class: ~30.5% voting power vs 11.05% economic stake; holdings via revocable
+  trust and GRATs.'

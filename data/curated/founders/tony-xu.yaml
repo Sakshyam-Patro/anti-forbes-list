@@ -1,0 +1,22 @@
+schema_version: 1
+slug: tony-xu
+name: Tony Xu
+forbes_uri: tony-xu
+companies:
+- company: doordash
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1792789/000179278926000018/dash-20260420.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2026-03-01'
+    pct_outstanding: 0.0253
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1792789/000179278926000018/dash-20260420.htm
+      accessed: '2026-06-12'
+special_notes:
+- Economic stake 2.53% (11.1M of 438.2M incl. his 60-day options); 24% voting power
+  partly via irrevocable proxy over Fang/Tang Class B.
+- Giving Pledge Dec 2021; no lifetime figure.
+- No published lifetime-giving total; see https://www.philanthropy.com/news/giving-pledge-adds-14-billionaires-to-philanthropist-list/

@@ -1,0 +1,26 @@
+schema_version: 1
+slug: mark-zuckerberg
+name: Mark Zuckerberg
+forbes_uri: mark-zuckerberg
+companies:
+- company: meta
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2026-04-01'
+    pct_outstanding: 0.1349
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 6100000000
+  basis: 'Forbes Top Givers (Feb 2026) lifetime out-the-door for Zuckerberg + Chan
+    via CZI (rank #8), valued at gift date; the 99%-of-shares pledge is overwhelmingly
+    unfulfilled so far. Stake = 341.8M Class B + 0.6M Class A / 2.538B total (60.8%
+    voting power).'
+  source:
+    url: https://www.forbes.com/lists/top-givers/
+    accessed: '2026-06-12'

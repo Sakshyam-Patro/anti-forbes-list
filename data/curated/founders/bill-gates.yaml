@@ -1,0 +1,31 @@
+schema_version: 1
+slug: bill-gates
+name: Bill Gates
+forbes_uri: bill-gates
+companies:
+- company: microsoft
+  role: cofounder
+  attribution_weight: 1.0
+  weight_source:
+    url: https://www.sec.gov/Archives/edgar/data/789019/000119312519268531/d791036ddef14a.htm
+    note: sole tracked founder of this company
+  ownership_history:
+  - as_of: '2019-10-16'
+    pct_outstanding: 0.0134
+    source:
+      url: https://www.sec.gov/Archives/edgar/data/789019/000119312519268531/d791036ddef14a.htm
+      accessed: '2026-06-12'
+giving:
+  lifetime_usd: 63900000000
+  basis: Bill + Melinda contributions actually transferred to the Gates Foundation
+    through Dec 31 2025, per the foundation fact sheet, valued at transfer. Stake
+    is last SEC-documented (FY2019 proxy, 1.34%); he left the board in 2020 so current
+    holdings are undisclosed and smaller.
+  source:
+    url: https://www.gatesfoundation.org/about/foundation-fact-sheet
+    accessed: '2026-06-12'
+special_notes:
+- Stake is last SEC-documented (FY2019 proxy, 1.34%); left board 2020, current holdings
+  undisclosed and smaller.
+- Decades of sales mean Kept includes returns on reinvested proceeds (METHODOLOGY
+  §5).

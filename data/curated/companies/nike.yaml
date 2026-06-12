@@ -13,3 +13,11 @@ baseline_close:
     accessed: '2026-06-12'
 founders:
 - phil-knight
+shares_override:
+  value: 1480887033
+  source:
+    url: https://www.sec.gov/Archives/edgar/data/320187/000032018726000037/nke-20260228.htm
+    note: 281,387,752 Class A + 1,199,499,281 Class B as of 2026-03-25 per Q3 FY2026
+      10-Q cover; classes economically equal (A converts 1:1 to B), priced at NKE;
+      EDGAR dei tag stale since 2015
+    accessed: '2026-06-12'
