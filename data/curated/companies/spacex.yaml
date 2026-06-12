@@ -21,13 +21,6 @@ shares_override:
       5,602,790,410 Class B, no overallotment); no XBRL companyfacts exist yet
       for a new issuer
     accessed: '2026-06-12'
-shares_override:
-  value: 13090853965
-  source:
-    url: https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm
-    note: post-offering shares per 424B4 (7,488,063,555 Class A + 5,602,790,410 Class
-      B), no overallotment; no XBRL companyfacts exist yet for this fresh issuer
-    accessed: '2026-06-12'
 founders:
 - elon-musk
 notes:

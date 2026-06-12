@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "anti-forbes-list",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["next", "dev", "--port", "3741"],
+      "port": 3741
+    }
+  ]
+}

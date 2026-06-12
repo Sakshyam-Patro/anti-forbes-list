@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f7f3ea;
+  --color-paper-deep: #efe8d8;
+  --color-ink: #16140f;
+  --color-ink-soft: #57503f;
+  --color-rule: #d8d0bd;
+  --color-ledger: #1d6b3c;
+  --color-oxide: #9b3a2e;
+  --font-display: var(--font-fraunces), "Fraunces", georgia, serif;
+  --font-body: var(--font-newsreader), "Newsreader", georgia, serif;
+  --font-data: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  /* faint newsprint grain */
+  background-image: radial-gradient(
+    rgba(22, 20, 15, 0.028) 1px,
+    transparent 1px
+  );
+  background-size: 3px 3px;
+}
+
+.font-display { font-family: var(--font-display); }
+.font-data {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+/* classic financial-print double rule */
+.rule-double {
+  border-top: 1px solid var(--color-ink);
+  position: relative;
+}
+.rule-double::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid var(--color-ink);
+}
+
+.citation-sup {
+  font-family: var(--font-data);
+  font-size: 0.62em;
+  vertical-align: super;
+  color: var(--color-oxide);
+  text-decoration: none;
+}
+.citation-sup:hover { text-decoration: underline; }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.rise { animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+
+::selection { background: var(--color-ledger); color: var(--color-paper); }
