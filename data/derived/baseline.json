@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T13:57:26.402481Z",
+  "generated_at": "2026-06-12T14:00:59.780723Z",
   "methodology_version": "1.1.0",
   "baseline_date": "2025-12-31",
   "companies": {
@@ -11,7 +11,7 @@
       "shares_outstanding": 598000000.0,
       "shares_as_of": "2026-03-31",
       "shares_source": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
-      "prev_close_usd": 129.24000549316406
+      "prev_close_usd": 129.52999877929688
     },
     "alphabet": {
       "name": "Alphabet Inc.",
@@ -21,7 +21,7 @@
       "shares_outstanding": 12116000000.0,
       "shares_as_of": "2026-03-31",
       "shares_source": "us-gaap:CommonStockSharesOutstanding",
-      "prev_close_usd": 358.52899169921875
+      "prev_close_usd": 358.6199951171875
     },
     "amazon": {
       "name": "Amazon.com, Inc.",
@@ -31,7 +31,7 @@
       "shares_outstanding": 10757109436.0,
       "shares_as_of": "2026-04-22",
       "shares_source": "dei:EntityCommonStockSharesOutstanding",
-      "prev_close_usd": 234.35000610351562
+      "prev_close_usd": 235.02000427246094
     },
     "berkshire": {
       "name": "Berkshire Hathaway Inc.",
@@ -41,7 +41,7 @@
       "shares_outstanding": 2157185889.0,
       "shares_as_of": "2026-06-12",
       "shares_source": "override",
-      "prev_close_usd": 485.9800109863281
+      "prev_close_usd": 485.6600036621094
     },
     "blackstone": {
       "name": "Blackstone Inc.",
@@ -51,7 +51,7 @@
       "shares_outstanding": 742879807.0,
       "shares_as_of": "2026-05-01",
       "shares_source": "dei:EntityCommonStockSharesOutstanding",
-      "prev_close_usd": 121.63999938964844
+      "prev_close_usd": 121.4800033569336
     },
     "block": {
       "name": "Block, Inc.",
@@ -61,7 +61,7 @@
       "shares_outstanding": 597586000.0,
       "shares_as_of": "2026-03-31",
       "shares_source": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
-      "prev_close_usd": 68.95999908447266
+      "prev_close_usd": 69.06999969482422
     },
     "coinbase": {
       "name": "Coinbase Global, Inc.",
@@ -71,7 +71,7 @@
       "shares_outstanding": 263411000.0,
       "shares_as_of": "2026-03-31",
       "shares_source": "us-gaap:CommonStockSharesOutstanding",
-      "prev_close_usd": 157.14999389648438
+      "prev_close_usd": 158.57000732421875
     },
     "dell": {
       "name": "Dell Technologies Inc.",
@@ -81,7 +81,7 @@
       "shares_outstanding": 649000000.0,
       "shares_as_of": "2026-05-01",
       "shares_source": "us-gaap:CommonStockSharesOutstanding",
-      "prev_close_usd": 396.0150146484375
+      "prev_close_usd": 397.0799865722656
     },
     "doordash": {
       "name": "DoorDash, Inc.",
@@ -91,7 +91,7 @@
       "shares_outstanding": 435429000.0,
       "shares_as_of": "2026-03-31",
       "shares_source": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
-      "prev_close_usd": 147.7899932861328
+      "prev_close_usd": 148.61000061035156
     },
     "dropbox": {
       "name": "Dropbox, Inc.",
@@ -101,7 +101,7 @@
       "shares_outstanding": 235200000.0,
       "shares_as_of": "2026-03-31",
       "shares_source": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
-      "prev_close_usd": 26.655000686645508
+      "prev_close_usd": 26.7810001373291
     },
     "interactive-brokers": {
       "name": "Interactive Brokers Group, Inc.",
@@ -111,7 +111,7 @@
       "shares_outstanding": 445616477.0,
       "shares_as_of": "2026-06-12",
       "shares_source": "override",
-      "prev_close_usd": 92.09500122070312
+      "prev_close_usd": 92.12999725341797
     },
     "meta": {
       "name": "Meta Platforms, Inc.",
@@ -121,7 +121,7 @@
       "shares_outstanding": 2534000000.0,
       "shares_as_of": "2026-03-31",
       "shares_source": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
-      "prev_close_usd": 563.9299926757812
+      "prev_close_usd": 564.530029296875
     },
     "microsoft": {
       "name": "Microsoft Corporation",
@@ -131,7 +131,7 @@
       "shares_outstanding": 7428434704.0,
       "shares_as_of": "2026-04-23",
       "shares_source": "dei:EntityCommonStockSharesOutstanding",
-      "prev_close_usd": 383.6000061035156
+      "prev_close_usd": 383.55499267578125
     },
     "netflix": {
       "name": "Netflix, Inc.",
@@ -141,7 +141,7 @@
       "shares_outstanding": 4212794271.0,
       "shares_as_of": "2026-03-31",
       "shares_source": "dei:EntityCommonStockSharesOutstanding",
-      "prev_close_usd": 79.34980010986328
+      "prev_close_usd": 79.63999938964844
     },
     "nike": {
       "name": "NIKE, Inc.",
@@ -151,7 +151,7 @@
       "shares_outstanding": 1480887033.0,
       "shares_as_of": "2026-06-12",
       "shares_source": "override",
-      "prev_close_usd": 45.16999816894531
+      "prev_close_usd": 45.27000045776367
     },
     "nvidia": {
       "name": "NVIDIA Corporation",
@@ -161,7 +161,7 @@
       "shares_outstanding": 24200000000.0,
       "shares_as_of": "2026-05-15",
       "shares_source": "dei:EntityCommonStockSharesOutstanding",
-      "prev_close_usd": 204.4073944091797
+      "prev_close_usd": 204.3300018310547
     },
     "oracle": {
       "name": "Oracle Corporation",
@@ -171,7 +171,7 @@
       "shares_outstanding": 2876046000.0,
       "shares_as_of": "2026-03-05",
       "shares_source": "dei:EntityCommonStockSharesOutstanding",
-      "prev_close_usd": 179.8000030517578
+      "prev_close_usd": 180.8300018310547
     },
     "palantir": {
       "name": "Palantir Technologies Inc.",
@@ -181,7 +181,7 @@
       "shares_outstanding": 2397133000.0,
       "shares_as_of": "2026-03-31",
       "shares_source": "us-gaap:CommonStockSharesOutstanding",
-      "prev_close_usd": 127.72329711914062
+      "prev_close_usd": 128.35000610351562
     },
     "salesforce": {
       "name": "Salesforce, Inc.",
@@ -191,7 +191,7 @@
       "shares_outstanding": 819000000.0,
       "shares_as_of": "2026-05-21",
       "shares_source": "dei:EntityCommonStockSharesOutstanding",
-      "prev_close_usd": 163.2100067138672
+      "prev_close_usd": 163.60000610351562
     },
     "snap": {
       "name": "Snap Inc.",
@@ -201,7 +201,7 @@
       "shares_outstanding": 1741534000.0,
       "shares_as_of": "2026-03-31",
       "shares_source": "us-gaap:CommonStockSharesOutstanding",
-      "prev_close_usd": 5.190000057220459
+      "prev_close_usd": 5.230000019073486
     },
     "spacex": {
       "name": "Space Exploration Technologies Corp.",
@@ -221,7 +221,7 @@
       "shares_outstanding": 3755723871.0,
       "shares_as_of": "2026-04-16",
       "shares_source": "dei:EntityCommonStockSharesOutstanding",
-      "prev_close_usd": 397.1549987792969
+      "prev_close_usd": 396.1000061035156
     },
     "walmart": {
       "name": "Walmart Inc.",
@@ -231,7 +231,7 @@
       "shares_outstanding": 7958079155.0,
       "shares_as_of": "2026-05-27",
       "shares_source": "dei:EntityCommonStockSharesOutstanding",
-      "prev_close_usd": 120.0999984741211
+      "prev_close_usd": 120.11000061035156
     },
     "workday": {
       "name": "Workday, Inc.",
@@ -241,7 +241,7 @@
       "shares_outstanding": 249685551.0,
       "shares_as_of": "2026-06-12",
       "shares_source": "override",
-      "prev_close_usd": 126.33999633789062
+      "prev_close_usd": 126.79499816894531
     },
     "zscaler": {
       "name": "Zscaler, Inc.",
@@ -251,7 +251,7 @@
       "shares_outstanding": 161709525.0,
       "shares_as_of": "2026-05-19",
       "shares_source": "dei:EntityCommonStockSharesOutstanding",
-      "prev_close_usd": 125.16999816894531
+      "prev_close_usd": 125.81999969482422
     }
   },
   "founders": {
