@@ -1,6 +1,6 @@
 # Methodology
 
-**Version 1.0.0** · Baseline: December 31, 2025 · [Changelog](#changelog)
+**Version 1.1.0** · Baseline: December 31, 2025 · [Changelog](#changelog)
 
 > *"Somebody needs to make a list where they rank people by how much wealth they've created for other people, instead of the Forbes list that ranks you by your own wealth."*
 > — Jeff Bezos, New York Times DealBook Summit, December 2024
@@ -36,6 +36,8 @@ CWC_c(t) = B_c + ( MarketCap_c(t) − MarketCap_c(t₀) )
 
 **Why net-of-T-bills matters:** a company that merely matched risk-free returns created nothing extra for anyone. Bessembinder's measure counts only wealth created *beyond* that bar, which makes the headline number conservative and defensible.
 
+**IPO entry rule:** a company enters the universe when it lists, and its wealth creation is measured **from listing onward** — uniformly, for every company. Value built while private is real but is not public-market wealth creation and is not in the headline (Amazon's pre-1997 value is excluded on the same terms as SpaceX's pre-2026 value). Profiles of recently-listed companies show a clearly-labeled context line — *"value at IPO held by shareholders other than the founder"* — computed from the prospectus stake and listing-day capitalization, outside the headline. Newly-listed companies use `B_c = 0` with the live delta measured from listing-day close until they appear in the next annual Bessembinder file.
+
 ## §3 Wealth kept — Kept
 
 `Kept_f` = the founder's **Forbes real-time net worth**, refreshed approximately every 15 minutes (archival history via the komed3/rtb-api mirror of Forbes data).
@@ -61,10 +63,10 @@ Here, each tracked founder gets an **attribution weight** `w_fc`: their benefici
 
 ## §5 Special cases
 
-- **Warren Buffett** — Berkshire shares he has donated now belong to foundations — i.e., to "others." The formula therefore **counts philanthropy as wealth created for others.** This is intentional and stated plainly: giving wealth away raises your score. Note also Buffett *acquired* Berkshire (1965) rather than founding it; he is tracked as its builder, and the Bessembinder window (1976–) reflects CRSP data coverage.
+- **Warren Buffett** — Berkshire shares he has donated now belong to foundations — i.e., to "others." The headline therefore **counts philanthropy as wealth created for others**: we subtract only what a founder currently holds, so donated wealth sits where it factually sits. Because *creating* wealth and *giving it away* are different mechanisms, every founder also carries a curated, cited **"given away"** figure, and the site offers a **strict-creation toggle** that re-ranks with lifetime giving counted as kept. (Empirically the toggle moves Buffett visibly and Gates by only a few percent — both views are shown rather than argued.) Note also Buffett *acquired* Berkshire (1965) rather than founding it; he is tracked as its builder, and the Bessembinder window (1976–) reflects CRSP data coverage.
 - **Bill Gates** — decades of stake sales mean his `Kept` includes returns on reinvested proceeds. His profile shows the curated ownership-history timeline (proxy citations per era) and the strict stake value alongside.
 - **Walton family** — the deliberate **control case**, flagged `inherited`. Aggregated as one entry: `CWC(WMT) − Σ family net worths`. The metric should — and does — distinguish *creating* wealth from *holding* it.
-- **Elon Musk** — the headline metric covers **public companies only** (Tesla). His `Kept` includes SpaceX/xAI stakes while his CWC does not, making his headline figure conservative; a secondary "incl. SpaceX at last tender valuation" figure is shown, clearly marked as a non-headline estimate. Musk joined Tesla at its Series A rather than incorporation; the company page documents this.
+- **Elon Musk** — tracked for Tesla and, **as of its June 12, 2026 Nasdaq listing (SPCX), SpaceX**. Per the IPO entry rule, SpaceX's wealth creation accrues from listing day; the ~$1.75T built while private appears only as the labeled context line (others' share of IPO-day capitalization). His `Kept` includes stakes in still-private ventures (xAI) while his CWC does not — conservative, and stated. Musk joined Tesla at its Series A rather than incorporation, and SpaceX he founded outright; each company page documents the founding roster.
 
 ## §6 Validation pledge
 
@@ -86,5 +88,6 @@ The two figures use different definitions (Bezos used raw market cap × outside 
 
 ## Changelog
 
+- **1.1.0** (2026-06-12) — added the IPO entry rule (creation measured from listing, uniformly; prompted by SpaceX's SPCX listing this day) and the philanthropy treatment (headline counts current holdings only; curated "given away" figures + strict-creation toggle).
 - **1.0.0** (2026-06-12) — frozen after Phase 0 validation: Bezos gate passed at 8.5% deviation; co-founder conservation property verified for Page/Brin.
 - **0.9.0** (2026-06-12) — initial draft for Phase 0 validation.
