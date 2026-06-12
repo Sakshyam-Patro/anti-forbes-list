@@ -1,0 +1,20 @@
+schema_version: 1
+slug: spacex
+name: Space Exploration Technologies Corp.
+ticker: SPCX
+cik: 0001181412
+bessembinder_names: []
+baseline_close:
+  value: 135.0
+  source:
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001181412&type=424B&dateb=&owner=include&count=10
+    note: IPO offering price per 424B prospectus; listed Nasdaq 2026-06-12. Replace
+      with first-day close once available.
+    accessed: '2026-06-12'
+listing_date: '2026-06-12'
+founders:
+- elon-musk
+notes:
+- Entered universe at listing per METHODOLOGY IPO entry rule; CWC accrues from listing
+  day.
+- Pre-IPO value shown only as profile context line.

@@ -1,0 +1,15 @@
+schema_version: 1
+slug: oracle
+name: Oracle Corporation
+ticker: ORCL
+cik: 0001341439
+bessembinder_names:
+- ORACLE CORP
+baseline_close:
+  value: 194.91
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/ORCL?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- larry-ellison

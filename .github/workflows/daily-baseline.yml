@@ -1,0 +1,34 @@
+name: Daily baseline
+
+on:
+  schedule:
+    - cron: "30 22 * * 1-5"   # 22:30 UTC, after US close, weekdays
+  workflow_dispatch:
+    inputs:
+      override:
+        description: "Company slug allowed to move >25% (e.g. after a split)"
+        required: false
+
+jobs:
+  build-baseline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Build baseline (EDGAR + closes + Forbes, QA-gated)
+        working-directory: pipeline
+        run: |
+          uv sync --frozen
+          ARGS=""
+          if [ -n "${{ inputs.override }}" ]; then ARGS="--override ${{ inputs.override }}"; fi
+          uv run python -m afl_pipeline.build_baseline $ARGS
+      - name: Commit if changed (triggers Vercel redeploy)
+        run: |
+          git config user.name "afl-pipeline-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/derived/baseline.json
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "data: daily baseline $(date -u +%F)"
+          git push

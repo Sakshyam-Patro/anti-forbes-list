@@ -1,0 +1,15 @@
+schema_version: 1
+slug: tesla
+name: Tesla, Inc.
+ticker: TSLA
+cik: 0001318605
+bessembinder_names:
+- TESLA INC
+baseline_close:
+  value: 449.72
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/TSLA?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- elon-musk

@@ -1,0 +1,16 @@
+schema_version: 1
+slug: palantir
+name: Palantir Technologies Inc.
+ticker: PLTR
+cik: '0001321655'
+bessembinder_names:
+- PALANTIR TECHNOLOGIES INC
+baseline_close:
+  value: 177.75
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/PLTR?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- alex-karp
+- peter-thiel

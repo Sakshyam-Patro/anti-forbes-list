@@ -1,0 +1,230 @@
+{
+  "AMZN": [
+    {
+      "name": "AMAZON COM INC",
+      "wc_usd_millions": 2268815.6658,
+      "first": "1997-05-30",
+      "last": "2025-12-31"
+    }
+  ],
+  "TSLA": [
+    {
+      "name": "TESLA INC",
+      "wc_usd_millions": 1297362.1926,
+      "first": "2010-06-30",
+      "last": "2025-12-31"
+    }
+  ],
+  "NVDA": [
+    {
+      "name": "NVIDIA CORP",
+      "wc_usd_millions": 4575344.917,
+      "first": "1999-01-29",
+      "last": "2025-12-31"
+    }
+  ],
+  "MSFT": [
+    {
+      "name": "MICROSOFT CORP",
+      "wc_usd_millions": 4027066.3557,
+      "first": "1986-03-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "GOOGL": [
+    {
+      "name": "ALPHABET INC",
+      "wc_usd_millions": 3571402.2211,
+      "first": "2004-08-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "META": [
+    {
+      "name": "META PLATFORMS INC",
+      "wc_usd_millions": 1390924.1064,
+      "first": "2012-05-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "BRK": [
+    {
+      "name": "BERKSHIRE HATHAWAY INC DEL",
+      "wc_usd_millions": 1125721.2589,
+      "first": "1976-10-29",
+      "last": "2025-12-31"
+    }
+  ],
+  "WMT": [
+    {
+      "name": "WALMART INC",
+      "wc_usd_millions": 1204016.3875,
+      "first": "1972-11-30",
+      "last": "2025-12-31"
+    }
+  ],
+  "ORCL": [
+    {
+      "name": "ORACLE CORP",
+      "wc_usd_millions": 729611.43577,
+      "first": "1986-03-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "DELL": [
+    {
+      "name": "DELL INC",
+      "wc_usd_millions": 57481.52113,
+      "first": "1988-06-30",
+      "last": "2013-09-30"
+    },
+    {
+      "name": "DELL TECHNOLOGIES INC",
+      "wc_usd_millions": 52292.987317,
+      "first": "2016-09-30",
+      "last": "2025-12-31"
+    },
+    {
+      "name": "DELLWOOD FOODS INC",
+      "wc_usd_millions": -7.227899453,
+      "first": "1964-05-28",
+      "last": "1982-08-31"
+    }
+  ],
+  "NFLX": [
+    {
+      "name": "NETFLIX INC",
+      "wc_usd_millions": 401684.89945,
+      "first": "2002-05-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "CRM": [
+    {
+      "name": "SALESFORCE INC",
+      "wc_usd_millions": 188567.82287,
+      "first": "2004-06-30",
+      "last": "2025-12-31"
+    }
+  ],
+  "NKE": [
+    {
+      "name": "NIKE INC",
+      "wc_usd_millions": 118119.49246,
+      "first": "1980-12-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "BX": [
+    {
+      "name": "BLACKSTONE INC",
+      "wc_usd_millions": 87395.734491,
+      "first": "2019-07-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "ABNB": [
+    {
+      "name": "AIRBNB INC",
+      "wc_usd_millions": -16854.7177,
+      "first": "2020-12-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "COIN": [
+    {
+      "name": "COINBASE GLOBAL INC",
+      "wc_usd_millions": -23038.35882,
+      "first": "2021-04-30",
+      "last": "2025-12-31"
+    }
+  ],
+  "PLTR": [
+    {
+      "name": "PALANTIR TECHNOLOGIES INC",
+      "wc_usd_millions": 353537.83389,
+      "first": "2020-10-30",
+      "last": "2025-12-31"
+    }
+  ],
+  "XYZ": [
+    {
+      "name": "SQUARE D CO",
+      "wc_usd_millions": 10083.0471,
+      "first": "1936-04-30",
+      "last": "1991-04-30"
+    },
+    {
+      "name": "SQUARE 1 FINANCIAL INC",
+      "wc_usd_millions": 185.72763865,
+      "first": "2014-03-31",
+      "last": "2015-09-30"
+    },
+    {
+      "name": "SQUARE INDUSTRIES INC",
+      "wc_usd_millions": 39.64213977,
+      "first": "1982-05-28",
+      "last": "1996-12-31"
+    },
+    {
+      "name": "SQUARESPACE INC",
+      "wc_usd_millions": -230.6119386,
+      "first": "2021-05-28",
+      "last": "2024-09-30"
+    },
+    {
+      "name": "BLOCK INC",
+      "wc_usd_millions": -6864.936291,
+      "first": "2015-11-30",
+      "last": "2025-12-31"
+    }
+  ],
+  "SNAP": [
+    {
+      "name": "SNAP INC",
+      "wc_usd_millions": -29682.33117,
+      "first": "2017-03-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "WDAY": [
+    {
+      "name": "WORKDAY INC",
+      "wc_usd_millions": 16665.658423,
+      "first": "2012-10-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "IBKR": [
+    {
+      "name": "INTERACTIVE BROKERS GROUP INC",
+      "wc_usd_millions": 23645.638135,
+      "first": "2007-05-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "ZS": [
+    {
+      "name": "ZSCALER INC",
+      "wc_usd_millions": 23876.922541,
+      "first": "2018-03-29",
+      "last": "2025-12-31"
+    }
+  ],
+  "DASH": [
+    {
+      "name": "DOORDASH INC",
+      "wc_usd_millions": 12166.635456,
+      "first": "2020-12-31",
+      "last": "2025-12-31"
+    }
+  ],
+  "DBX": [
+    {
+      "name": "DROPBOX INC",
+      "wc_usd_millions": -711.8284357,
+      "first": "2018-03-29",
+      "last": "2025-12-31"
+    }
+  ]
+}

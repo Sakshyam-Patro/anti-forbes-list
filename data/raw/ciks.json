@@ -1,0 +1,102 @@
+{
+  "NVDA": {
+    "cik": "0001045810",
+    "title": "NVIDIA CORP"
+  },
+  "GOOGL": {
+    "cik": "0001652044",
+    "title": "Alphabet Inc."
+  },
+  "MSFT": {
+    "cik": "0000789019",
+    "title": "MICROSOFT CORP"
+  },
+  "AMZN": {
+    "cik": "0001018724",
+    "title": "AMAZON COM INC"
+  },
+  "META": {
+    "cik": "0001326801",
+    "title": "Meta Platforms, Inc."
+  },
+  "TSLA": {
+    "cik": "0001318605",
+    "title": "Tesla, Inc."
+  },
+  "BRK-B": {
+    "cik": "0001067983",
+    "title": "BERKSHIRE HATHAWAY INC"
+  },
+  "WMT": {
+    "cik": "0000104169",
+    "title": "Walmart Inc."
+  },
+  "ORCL": {
+    "cik": "0001341439",
+    "title": "ORACLE CORP"
+  },
+  "NFLX": {
+    "cik": "0001065280",
+    "title": "NETFLIX INC"
+  },
+  "PLTR": {
+    "cik": "0001321655",
+    "title": "Palantir Technologies Inc."
+  },
+  "DELL": {
+    "cik": "0001571996",
+    "title": "Dell Technologies Inc."
+  },
+  "CRM": {
+    "cik": "0001108524",
+    "title": "Salesforce, Inc."
+  },
+  "IBKR": {
+    "cik": "0001381197",
+    "title": "Interactive Brokers Group, Inc."
+  },
+  "BX": {
+    "cik": "0001393818",
+    "title": "Blackstone Inc."
+  },
+  "ABNB": {
+    "cik": "0001559720",
+    "title": "Airbnb, Inc."
+  },
+  "DASH": {
+    "cik": "0001792789",
+    "title": "DoorDash, Inc."
+  },
+  "NKE": {
+    "cik": "0000320187",
+    "title": "NIKE, Inc."
+  },
+  "XYZ": {
+    "cik": "0001512673",
+    "title": "Block, Inc."
+  },
+  "COIN": {
+    "cik": "0001679788",
+    "title": "Coinbase Global, Inc."
+  },
+  "WDAY": {
+    "cik": "0001327811",
+    "title": "Workday, Inc."
+  },
+  "ZS": {
+    "cik": "0001713683",
+    "title": "Zscaler, Inc."
+  },
+  "SNAP": {
+    "cik": "0001564408",
+    "title": "Snap Inc"
+  },
+  "DBX": {
+    "cik": "0001467623",
+    "title": "DROPBOX, INC."
+  },
+  "SPCX": {
+    "cik": "0001181412",
+    "title": "SPACE EXPLORATION TECHNOLOGIES CORP"
+  }
+}

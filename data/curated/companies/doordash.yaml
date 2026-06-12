@@ -1,0 +1,15 @@
+schema_version: 1
+slug: doordash
+name: DoorDash, Inc.
+ticker: DASH
+cik: 0001792789
+bessembinder_names:
+- DOORDASH INC
+baseline_close:
+  value: 226.48
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/DASH?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- tony-xu

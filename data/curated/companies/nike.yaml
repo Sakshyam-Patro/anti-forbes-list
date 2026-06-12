@@ -1,0 +1,15 @@
+schema_version: 1
+slug: nike
+name: NIKE, Inc.
+ticker: NKE
+cik: 0000320187
+bessembinder_names:
+- NIKE INC
+baseline_close:
+  value: 63.71
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/NKE?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- phil-knight

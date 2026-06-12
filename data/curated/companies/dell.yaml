@@ -1,0 +1,19 @@
+schema_version: 1
+slug: dell
+name: Dell Technologies Inc.
+ticker: DELL
+cik: 0001571996
+bessembinder_names:
+- DELL INC
+- DELL TECHNOLOGIES INC
+baseline_close:
+  value: 125.88
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/DELL?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- michael-dell
+notes:
+- 'Two Bessembinder windows summed: Dell Inc (1988-2013, pre-LBO) + Dell Technologies
+  (2016-).'

@@ -1,0 +1,15 @@
+schema_version: 1
+slug: zscaler
+name: Zscaler, Inc.
+ticker: ZS
+cik: 0001713683
+bessembinder_names:
+- ZSCALER INC
+baseline_close:
+  value: 224.92
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/ZS?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- jay-chaudhry

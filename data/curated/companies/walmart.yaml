@@ -1,0 +1,15 @@
+schema_version: 1
+slug: walmart
+name: Walmart Inc.
+ticker: WMT
+cik: 0000104169
+bessembinder_names:
+- WALMART INC
+baseline_close:
+  value: 111.41
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/WMT?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- walton-family

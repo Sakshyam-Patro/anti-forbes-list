@@ -1,0 +1,15 @@
+schema_version: 1
+slug: airbnb
+name: Airbnb, Inc.
+ticker: ABNB
+cik: 0001559720
+bessembinder_names:
+- AIRBNB INC
+baseline_close:
+  value: 135.72
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/ABNB?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- brian-chesky

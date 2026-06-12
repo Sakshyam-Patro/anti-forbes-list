@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Tests (formula pinned to golden.json, schemas, QA gates)
+        working-directory: pipeline
+        run: |
+          uv sync --frozen
+          uv run pytest tests/ -q
+      - name: Curated data validates against schema
+        working-directory: pipeline
+        run: uv run python -c "from afl_pipeline.build_baseline import load_curated; c,f=load_curated(); print(f'{len(c)} companies, {len(f)} founders OK')"

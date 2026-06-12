@@ -1,0 +1,15 @@
+schema_version: 1
+slug: coinbase
+name: Coinbase Global, Inc.
+ticker: COIN
+cik: 0001679788
+bessembinder_names:
+- COINBASE GLOBAL INC
+baseline_close:
+  value: 226.14
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/COIN?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- brian-armstrong

@@ -1,0 +1,25 @@
+schema_version: 1
+slug: berkshire
+name: Berkshire Hathaway Inc.
+ticker: BRK
+cik: 0001067983
+bessembinder_names:
+- BERKSHIRE HATHAWAY INC DEL
+baseline_close:
+  value: 502.65
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- warren-buffett
+yahoo_symbol: BRK-B
+shares_override:
+  value: 2157185889
+  source:
+    url: https://www.sec.gov/Archives/edgar/data/1067983/000119312526202243/brka-20260331.htm
+    note: average equivalent Class B shares outstanding, Q1 2026 10-Q (A x1500 + B);
+      EDGAR dei tag stale since 2011
+    accessed: '2026-06-12'
+notes:
+- Dual-class A/B; all figures in B-share equivalents priced at BRK-B.

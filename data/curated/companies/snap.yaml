@@ -1,0 +1,16 @@
+schema_version: 1
+slug: snap
+name: Snap Inc.
+ticker: SNAP
+cik: 0001564408
+bessembinder_names:
+- SNAP INC
+baseline_close:
+  value: 8.07
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/SNAP?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- evan-spiegel
+- bobby-murphy

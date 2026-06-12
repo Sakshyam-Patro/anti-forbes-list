@@ -1,0 +1,15 @@
+schema_version: 1
+slug: nvidia
+name: NVIDIA Corporation
+ticker: NVDA
+cik: 0001045810
+bessembinder_names:
+- NVIDIA CORP
+baseline_close:
+  value: 186.5
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- jensen-huang

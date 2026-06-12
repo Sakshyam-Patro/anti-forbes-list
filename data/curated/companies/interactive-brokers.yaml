@@ -1,0 +1,15 @@
+schema_version: 1
+slug: interactive-brokers
+name: Interactive Brokers Group, Inc.
+ticker: IBKR
+cik: 0001381197
+bessembinder_names:
+- INTERACTIVE BROKERS GROUP INC
+baseline_close:
+  value: 64.31
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/IBKR?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- thomas-peterffy

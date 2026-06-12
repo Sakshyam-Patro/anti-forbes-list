@@ -1,0 +1,15 @@
+schema_version: 1
+slug: block
+name: Block, Inc.
+ticker: XYZ
+cik: '0001512673'
+bessembinder_names:
+- BLOCK INC
+baseline_close:
+  value: 65.09
+  source:
+    url: https://query1.finance.yahoo.com/v8/finance/chart/XYZ?period1=1766966400&period2=1767312000&interval=1d
+    note: official close 2025-12-31, Yahoo Finance daily chart API
+    accessed: '2026-06-12'
+founders:
+- jack-dorsey
