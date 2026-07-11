@@ -59,7 +59,7 @@ Here, each tracked founder gets an **attribution weight** `w_fc`: their benefici
 - Page & Brin held near-equal stakes at Google's 2004 IPO → `0.5 / 0.5`. The leaderboard renders them as a paired row with the joint figure, expandable to individual attributions.
 - **Conservation property (unit-tested):** for every company, Σ `w_fc` = 1.0, so summing WCFO across a company's tracked founders yields exactly `CWC − Σ Kept` — the others' pool is counted once.
 
-**Documented limitation:** weights normalize over *tracked* founders only. Untracked co-founders (e.g. Paul Allen at Microsoft, NVIDIA's Chris Malachowsky and Curtis Priem, Tesla's pre-Musk founders) are treated as part of "others," which slightly overstates a tracked founder's WCFO. Each company page lists its full founding roster and who is tracked. The roster expands over time.
+**Documented limitation:** weights normalize over *tracked* founders only. Untracked co-founders (e.g. Paul Allen at Microsoft, NVIDIA's Chris Malachowsky and Curtis Priem, Tesla's pre-Musk founders) are treated as part of "others," which slightly overstates a tracked founder's WCFO. Each company's founding roster and who is tracked is recorded in the curated data (`data/curated/`). The roster expands over time.
 
 ## §5 Special cases
 

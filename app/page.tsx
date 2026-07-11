@@ -21,6 +21,11 @@ export default async function Home() {
         <p className="mt-3 text-lg italic text-ink-soft">
           Ranked by what they built for everyone else.
         </p>
+        <p className="mx-auto mt-4 max-w-2xl text-[0.95rem] leading-relaxed text-ink-soft">
+          Each figure is the shareholder wealth a founder’s company created, now held by index
+          funds, pensions, employees and co-founders, <em>minus</em> what the founder kept. It’s
+          not a claim that one person built the company alone.
+        </p>
         <p className="font-data mt-5 text-[0.7rem] uppercase tracking-[0.16em] text-ink-soft">
           {r.rows.length} founders · {fmtT(totalCreated)} created for others ·
           updated {updated.toUTCString().slice(5, 22)} UTC
