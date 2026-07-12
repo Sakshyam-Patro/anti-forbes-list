@@ -85,8 +85,11 @@ export async function buildRanking(): Promise<RankingResult> {
       givingUsd: giving,
       createdUsd: created,
       // fraction the founder kept for themselves; undefined when the company
-      // destroyed value (created <= 0), where a "% kept" has no meaning
-      keptShare: created > 0 ? kept / created : null,
+      // destroyed value (created <= 0) or the founder kept more than the
+      // company created (kept > created, e.g. net worth dominated by other
+      // assets while the company barely cleared the T-bill bar) — a "% of
+      // total" above 100% has no meaning
+      keptShare: created > 0 && kept <= created ? kept / created : null,
       inherited: f.inherited ?? false,
       companies: f.companies.map((l) => ({
         slug: l.company,
