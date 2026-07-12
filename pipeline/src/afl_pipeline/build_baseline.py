@@ -42,11 +42,17 @@ def load_curated() -> tuple[dict[str, Company], dict[str, Founder]]:
         f = Founder(**yaml.safe_load(p.read_text()))
         founders[f.slug] = f
 
-    # referential integrity + attribution conservation
+    # referential integrity (both directions) + attribution conservation
     for f in founders.values():
         for link in f.companies:
             if link.company not in companies:
                 sys.exit(f"{f.slug}: unknown company '{link.company}'")
+    for c in companies.values():
+        for fslug in c.founders:
+            if fslug not in founders:
+                sys.exit(f"{c.slug}: lists unknown founder '{fslug}'")
+            if c.slug not in {l.company for l in founders[fslug].companies}:
+                sys.exit(f"{c.slug}: founder '{fslug}' does not link back")
     check_conservation({f.slug: {l.company: l.attribution_weight for l in f.companies}
                         for f in founders.values()})
     return companies, founders

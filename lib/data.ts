@@ -17,6 +17,9 @@ export interface CompanyLink {
   attribution_weight: number;
   weight_source: Citation;
   ownership_history?: OwnershipPoint[];
+  /** false = ownership is of unlisted units/deemed-beneficial, so pct x public
+   * market cap is not a valid dollar figure and must not be displayed */
+  stake_of_listed_class?: boolean;
 }
 export interface FounderYaml {
   slug: string; name: string; forbes_uri: string;

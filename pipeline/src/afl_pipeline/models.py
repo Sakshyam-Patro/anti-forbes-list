@@ -59,6 +59,11 @@ class CompanyLink(Strict):
     attribution_weight: float = Field(gt=0, le=1)
     weight_source: Citation
     ownership_history: list[OwnershipPoint] = []
+    # False when the recorded ownership is NOT of the listed share class
+    # (Up-C partnership units, deemed beneficial ownership aggregating other
+    # members) — pct x public market cap would be a wrong dollar figure, so
+    # the site shows the % with citation but suppresses the computed value.
+    stake_of_listed_class: bool = True
 
 
 class Giving(Strict):

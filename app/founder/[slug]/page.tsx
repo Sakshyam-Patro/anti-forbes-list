@@ -102,13 +102,22 @@ export default async function FounderPage({ params }: { params: Promise<{ slug: 
                       </td>
                       <td className="py-2 text-right">{(o.pct_outstanding * 100).toFixed(2)}%</td>
                       <td className="py-2 text-right text-ink-soft">{o.as_of}</td>
-                      <td className="py-2 text-right">{money(o.pct_outstanding * cap)}</td>
+                      <td className="py-2 text-right" title={l.stake_of_listed_class === false ? "Ownership is of unlisted units / deemed-beneficial holdings, so % × public market cap is not a valid dollar figure" : undefined}>
+                        {l.stake_of_listed_class === false ? "n/m*" : money(o.pct_outstanding * cap)}
+                      </td>
                     </tr>
                   );
                 }),
               )}
             </tbody>
           </table>
+          {f.companies.some((l) => l.stake_of_listed_class === false) && (
+            <p className="font-data mt-2 text-[0.68rem] text-ink-soft">
+              * not meaningful: the recorded ownership is of unlisted partnership units or
+              deemed-beneficial holdings, so multiplying it by the public market cap would
+              overstate the stake. See “Stated plainly” below.
+            </p>
+          )}
         </section>
       )}
 

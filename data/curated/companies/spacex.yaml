@@ -5,13 +5,14 @@ ticker: SPCX
 cik: 0001181412
 bessembinder_names: []
 baseline_close:
-  value: 135.0
+  value: 160.95
   source:
-    url: https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm
-    note: IPO offering price per 424B4 (accession 0001628280-26-042639); 555.6M Class A
-      at $135, ~$75B raise, 13,090,853,965 shares post-offering (~$1.77T implied).
-      Listed Nasdaq 2026-06-12. Replace with first-day close once available.
-    accessed: '2026-06-12'
+    url: https://query1.finance.yahoo.com/v8/finance/chart/SPCX?period1=1781049600&period2=1781654400&interval=1d
+    note: official first-day close 2026-06-12 (replaces the $135 IPO offering price
+      used as a listing-day placeholder; METHODOLOGY §2 measures creation from the
+      listing-day close, so the day-one pop accrues to IPO allocation buyers, not
+      the headline). IPO terms per 424B4 accession 0001628280-26-042639.
+    accessed: '2026-07-11'
 listing_date: '2026-06-12'
 shares_override:
   value: 13090853965
