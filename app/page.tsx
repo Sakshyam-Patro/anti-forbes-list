@@ -37,8 +37,10 @@ export default async function Home() {
 
       <p className="font-data mt-6 text-[0.7rem] leading-relaxed text-ink-soft">
         For others = company wealth creation beyond T-bill returns (Bessembinder baseline + live market
-        delta), attributed by founding stake, minus the founder’s current net worth. Multiple = created ÷ kept.
-        Negative rows are real: those companies have destroyed shareholder wealth since listing.
+        delta), attributed by founding stake, minus the founder’s current net worth. Kept of total = the
+        share of what they created that they kept for themselves; lower means more went to others.
+        Negative rows are real: those companies have destroyed shareholder wealth since listing. Figures are
+        nominal dollars and only cover public companies since their IPO.
         Full formula and every caveat: <a href="/methodology" className="underline">methodology v{r.baseline.methodology_version}</a>.
       </p>
     </main>

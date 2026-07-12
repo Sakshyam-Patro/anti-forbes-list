@@ -10,7 +10,8 @@ export interface RankedFounder {
   wcfoUsd: number; wcfoStrictUsd: number;
   keptUsd: number; keptAsOf: string; keptSource: string;
   givingUsd: number | null;
-  multiple: number;
+  createdUsd: number;          // total wealth created = wcfo + kept
+  keptShare: number | null;    // kept / created, in [0,1]; null when created <= 0
   inherited: boolean;
   companies: { slug: string; name: string; ticker: string; weight: number; cwcUsd: number }[];
 }
@@ -75,13 +76,17 @@ export async function buildRanking(): Promise<RankingResult> {
     }
     const giving = f.giving?.lifetime_usd ?? null;
     const v = wcfo(weights, companyStates, kept);
+    const created = v + kept;
     return {
       slug: f.slug, name: f.name,
       wcfoUsd: v,
       wcfoStrictUsd: wcfoStrict(weights, companyStates, kept, giving ?? 0),
       keptUsd: kept, keptAsOf, keptSource,
       givingUsd: giving,
-      multiple: (v + kept) / kept,
+      createdUsd: created,
+      // fraction the founder kept for themselves; undefined when the company
+      // destroyed value (created <= 0), where a "% kept" has no meaning
+      keptShare: created > 0 ? kept / created : null,
       inherited: f.inherited ?? false,
       companies: f.companies.map((l) => ({
         slug: l.company,

@@ -70,7 +70,8 @@ export default async function FounderPage({ params }: { params: Promise<{ slug: 
           </span>
         </div>
         <p className="font-data mt-3 text-[0.7rem] text-ink-soft">
-          Multiple {Number.isFinite(row.multiple) ? `${row.multiple.toFixed(1)}×` : "—"} · created {money(created)} in total
+          Created {money(created)} in total
+          {row.keptShare !== null && <> · kept {(row.keptShare * 100).toFixed(row.keptShare < 0.1 ? 1 : 0)}% of it</>}
           {row.givingUsd ? <> · has given away {money(row.givingUsd)}{f.giving && <a href={`#src-${cite(f.giving.source.url, `Lifetime giving — ${f.giving.basis}`)}`} className="citation-sup">{cite(f.giving.source.url, "")}</a>}</> : null}
         </p>
       </div>

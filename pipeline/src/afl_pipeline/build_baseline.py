@@ -26,7 +26,7 @@ from .models import Baseline, BaselineCompany, BaselineFounder, Company, Founder
 from .sources import bessembinder, edgar, forbes, prices
 
 ROOT = Path(__file__).resolve().parents[3]
-METHODOLOGY_VERSION = "1.1.0"
+METHODOLOGY_VERSION = "1.2.0"
 BASELINE_DATE = "2025-12-31"
 RAW_XLSX = ROOT / "data/raw/WCandRets.100years.xlsx"
 OUT = ROOT / "data/derived/baseline.json"

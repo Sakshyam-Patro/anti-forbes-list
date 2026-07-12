@@ -44,7 +44,7 @@ export default function LeaderboardTable({ rows }: { rows: RankedFounder[] }) {
             <th className="py-2.5 pr-4 text-left font-medium">Founder</th>
             <th className="py-2.5 pr-4 text-right font-medium text-ledger">For others</th>
             <th className="hidden py-2.5 pr-4 text-right font-medium text-oxide sm:table-cell">Kept</th>
-            <th className="hidden py-2.5 pr-4 text-right font-medium md:table-cell">Multiple</th>
+            <th className="hidden py-2.5 pr-4 text-right font-medium md:table-cell" title="Share of the wealth they created that they kept for themselves. Lower means more went to others.">Kept of total</th>
             <th className="hidden py-2.5 text-right font-medium md:table-cell">Given away</th>
           </tr>
         </thead>
@@ -84,7 +84,9 @@ export default function LeaderboardTable({ rows }: { rows: RankedFounder[] }) {
                   {money(r.keptUsd)}
                 </td>
                 <td className="font-data hidden py-3 pr-4 text-right text-sm text-ink-soft md:table-cell">
-                  {Number.isFinite(r.multiple) ? `${r.multiple.toFixed(1)}×` : "—"}
+                  {r.keptShare === null
+                    ? "—"
+                    : `${(r.keptShare * 100).toFixed(r.keptShare < 0.1 ? 1 : 0)}%`}
                 </td>
                 <td className="font-data hidden py-3 text-right text-sm text-ink-soft md:table-cell">
                   {r.givingUsd ? money(r.givingUsd) : "·"}

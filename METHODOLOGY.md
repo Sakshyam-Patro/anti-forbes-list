@@ -1,6 +1,6 @@
 # Methodology
 
-**Version 1.1.0** · Baseline: December 31, 2025 · [Changelog](#changelog)
+**Version 1.2.0** · Baseline: December 31, 2025 · [Changelog](#changelog)
 
 > *"Somebody needs to make a list where they rank people by how much wealth they've created for other people, instead of the Forbes list that ranks you by your own wealth."*
 > — Jeff Bezos, New York Times DealBook Summit, December 2024
@@ -82,12 +82,22 @@ The two figures use different definitions (Bezos used raw market cap × outside 
 
 ## §7 What this list is not
 
+- **It is the Forbes billionaires list, re-sorted — not a ranking of humanity's benefactors.** The universe is living billionaires with a trackable public company. Norman Borlaug, Linus Torvalds, vaccine developers, and public-sector reformers created enormous value and belong at the top of a *different* list; they are absent here because they are not billionaires with public equity, not because the metric judges them small. This list answers exactly one question Bezos posed: among the people Forbes already ranks by personal wealth, who created the most for others versus kept for themselves?
 - Not a measure of consumer surplus, wages, or societal value beyond shareholders (those are larger still — Nordhaus estimates innovators capture only ~2.2% of the social surplus they create — but they are not reliably measurable per person, so we do not headline them).
 - Not a moral scoreboard. It measures one thing: dollars of shareholder wealth created beyond a risk-free benchmark, minus dollars kept.
 - Not affiliated with Forbes or with any prior ranking site.
 
+## §8 Known limitations
+
+- **Nominal dollars, so recency-biased.** Wealth creation is not inflation-adjusted, and the live market-cap component reflects today's prices. A dollar created in 2024 outweighs one created in 1985, so the list skews toward recent tech. A founder from an earlier era can rank lower than their real-terms impact warrants.
+- **Public-market, post-IPO only.** Creation is measured from the listing date (§2), so wealth delivered to *pre-IPO* investors is not counted. A founder whose company enriched early backers but whose stock has fallen since listing (e.g. Dropbox) can show a negative figure even though early investors did well. The metric measures public-market wealth, not venture returns.
+- **Excess-of-T-bill benchmark.** A company that merely matched risk-free returns scores zero; this is deliberate (§2) but means a steady, low-beta compounder is scored conservatively.
+- **Only tracked co-founders are attributed** (§4); untracked co-founders and non-founder operators (e.g. Eric Schmidt) fold into "others."
+- **Spillover effects are ignored.** If one company's rise destroys a rival's market value, that destruction is not netted against the winner. Each founder is scored only on their own company's shareholder wealth.
+
 ## Changelog
 
+- **1.2.0** (2026-07-11) — replaced the confusing "multiple" (created ÷ kept, which exploded for founders who kept little) with "kept of total" (kept ÷ created, bounded 0–100%); added §8 Known limitations (nominal/recency bias, post-IPO-only, spillover) and sharpened §7 scope in response to Show HN feedback.
 - **1.1.0** (2026-06-12) — added the IPO entry rule (creation measured from listing, uniformly; prompted by SpaceX's SPCX listing this day) and the philanthropy treatment (headline counts current holdings only; curated "given away" figures + strict-creation toggle).
 - **1.0.0** (2026-06-12) — frozen after Phase 0 validation: Bezos gate passed at 8.5% deviation; co-founder conservation property verified for Page/Brin.
 - **0.9.0** (2026-06-12) — initial draft for Phase 0 validation.
