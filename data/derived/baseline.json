@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T03:05:32.454036Z",
+  "generated_at": "2026-10-14T01:17:52.839132Z",
   "methodology_version": "1.2.0",
   "baseline_date": "2025-12-31",
   "companies": {
@@ -257,143 +257,143 @@
   "founders": {
     "alexander-karp": {
       "name": "Alex Karp",
-      "forbes_net_worth_usd": 22132137000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 22100193000.0,
+      "forbes_as_of": "1791940502158"
     },
     "aneel-bhusri": {
       "name": "Aneel Bhusri",
-      "forbes_net_worth_usd": 2667208000.0,
-      "forbes_as_of": "1791860402216"
+      "forbes_net_worth_usd": 2648193000.0,
+      "forbes_as_of": "1791940502158"
     },
     "bill-gates": {
       "name": "Bill Gates",
-      "forbes_net_worth_usd": 115681198000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 116516340000.0,
+      "forbes_as_of": "1791940502157"
     },
     "bobby-murphy": {
       "name": "Bobby Murphy",
-      "forbes_net_worth_usd": 1821843000.0,
-      "forbes_as_of": "1791860402216"
+      "forbes_net_worth_usd": 1815027000.0,
+      "forbes_as_of": "1791940502158"
     },
     "brian-armstrong": {
       "name": "Brian Armstrong",
-      "forbes_net_worth_usd": 8711140000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 8768180000.0,
+      "forbes_as_of": "1791940502158"
     },
     "brian-chesky": {
       "name": "Brian Chesky",
-      "forbes_net_worth_usd": 11374436000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 11511077000.0,
+      "forbes_as_of": "1791940502158"
     },
     "david-duffield": {
       "name": "David Duffield",
-      "forbes_net_worth_usd": 11192210000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 11110683000.0,
+      "forbes_as_of": "1791940502158"
     },
     "drew-houston": {
       "name": "Drew Houston",
-      "forbes_net_worth_usd": 2574912000.0,
-      "forbes_as_of": "1791860402216"
+      "forbes_net_worth_usd": 2624845000.0,
+      "forbes_as_of": "1791940502158"
     },
     "elon-musk": {
       "name": "Elon Musk",
-      "forbes_net_worth_usd": 1006716706000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 970407620000.0,
+      "forbes_as_of": "1791940502157"
     },
     "evan-spiegel": {
       "name": "Evan Spiegel",
-      "forbes_net_worth_usd": 2405364000.0,
-      "forbes_as_of": "1791860402216"
+      "forbes_net_worth_usd": 2399162000.0,
+      "forbes_as_of": "1791940502158"
     },
     "jack-dorsey": {
       "name": "Jack Dorsey",
-      "forbes_net_worth_usd": 7742169000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 7609955000.0,
+      "forbes_as_of": "1791940502158"
     },
     "jay-chaudhry": {
       "name": "Jay Chaudhry",
-      "forbes_net_worth_usd": 12834898000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 12995968000.0,
+      "forbes_as_of": "1791940502158"
     },
     "jeff-bezos": {
       "name": "Jeff Bezos",
-      "forbes_net_worth_usd": 378275106000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 377434916000.0,
+      "forbes_as_of": "1791940502157"
     },
     "jensen-huang": {
       "name": "Jensen Huang",
-      "forbes_net_worth_usd": 195959928000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 197833822000.0,
+      "forbes_as_of": "1791940502157"
     },
     "larry-ellison": {
       "name": "Larry Ellison",
-      "forbes_net_worth_usd": 179174602000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 185134358000.0,
+      "forbes_as_of": "1791940502157"
     },
     "larry-page": {
       "name": "Larry Page",
-      "forbes_net_worth_usd": 288772287000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 289400118000.0,
+      "forbes_as_of": "1791940502157"
     },
     "marc-benioff": {
       "name": "Marc Benioff",
-      "forbes_net_worth_usd": 9105549000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 9198061000.0,
+      "forbes_as_of": "1791940502158"
     },
     "mark-zuckerberg": {
       "name": "Mark Zuckerberg",
-      "forbes_net_worth_usd": 254683777000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 261295722000.0,
+      "forbes_as_of": "1791940502157"
     },
     "michael-dell": {
       "name": "Michael Dell",
-      "forbes_net_worth_usd": 278069257000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 277234959000.0,
+      "forbes_as_of": "1791940502157"
     },
     "peter-thiel": {
       "name": "Peter Thiel",
-      "forbes_net_worth_usd": 39980502000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 39405921000.0,
+      "forbes_as_of": "1791940502157"
     },
     "phil-knight": {
       "name": "Phil Knight",
-      "forbes_net_worth_usd": 24886574000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 24880478000.0,
+      "forbes_as_of": "1791940502157"
     },
     "reed-hastings": {
       "name": "Reed Hastings",
-      "forbes_net_worth_usd": 4431430000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 4425714000.0,
+      "forbes_as_of": "1791940502158"
     },
     "sergey-brin": {
       "name": "Sergey Brin",
-      "forbes_net_worth_usd": 265739832999.99997,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 266316544999.99997,
+      "forbes_as_of": "1791940502157"
     },
     "stephen-schwarzman": {
       "name": "Stephen Schwarzman",
-      "forbes_net_worth_usd": 41201327000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 40079849000.0,
+      "forbes_as_of": "1791940502157"
     },
     "thomas-peterffy": {
       "name": "Thomas Peterffy",
-      "forbes_net_worth_usd": 101984922000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 101542854000.0,
+      "forbes_as_of": "1791940502157"
     },
     "tony-xu": {
       "name": "Tony Xu",
-      "forbes_net_worth_usd": 1812653000.0,
-      "forbes_as_of": "1791860402216"
+      "forbes_net_worth_usd": 1804015000.0,
+      "forbes_as_of": "1791940502158"
     },
     "walton-family": {
       "name": "Walton family",
-      "forbes_net_worth_usd": 462965315000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 460493036000.0,
+      "forbes_as_of": "1791940502158"
     },
     "warren-buffett": {
       "name": "Warren Buffett",
-      "forbes_net_worth_usd": 147224274000.0,
-      "forbes_as_of": "1791860702089"
+      "forbes_net_worth_usd": 147788206000.0,
+      "forbes_as_of": "1791940502157"
     }
   }
 }
